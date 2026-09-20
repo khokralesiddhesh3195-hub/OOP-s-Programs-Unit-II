@@ -1,0 +1,132 @@
+Multilevel Inheritance – Person, Employee and Manager
+
+📌 Description
+
+This C++ program demonstrates Multilevel Inheritance using three classes:
+
+- "Person" → Base class
+- "Employee" → Derived from "Person"
+- "Manager" → Derived from "Employee"
+
+The "Manager" class can access the features inherited through both "Employee" and "Person".
+
+---
+
+📊 Class Hierarchy
+
+Person
+   ↓
+Employee
+   ↓
+Manager
+
+---
+
+📚 Classes Used
+
+1. "Person" Class
+
+The "Person" class is the base class.
+
+It contains:
+
+- "name" – Stores the person's name.
+- Constructor – Initializes the person's name.
+- "showPerson()" – Displays the person's name.
+- "name" is declared as "protected", allowing derived classes to access it.
+
+---
+
+2. "Employee" Class
+
+The "Employee" class inherits from "Person".
+
+class Employee : public Person
+
+It contains:
+
+- "employeeId" – Stores the employee ID.
+- "showEmployee()" – Displays the employee ID.
+- Constructor – Calls the "Person" constructor to initialize the name.
+
+---
+
+3. "Manager" Class
+
+The "Manager" class inherits from "Employee".
+
+class Manager : public Employee
+
+It contains:
+
+- "teamSize" – Stores the number of team members.
+- "showManager()" – Displays the manager's complete details.
+
+Inside "showManager()":
+
+- "showPerson()" displays the name.
+- "showEmployee()" displays the employee ID.
+- "teamSize" displays the team size.
+
+---
+
+⚙️ Main Function
+
+The following "Manager" object is created:
+
+Manager manager("Ravi", 501, 8);
+
+Where:
+
+- ""Ravi"" → Manager's name
+- "501" → Employee ID
+- "8" → Team size
+
+Then:
+
+manager.showManager();
+
+is used to display all the details.
+
+---
+
+🖥️ Output
+
+Name: Ravi
+Employee ID: 501
+Team Size: 8
+
+---
+
+🧠 OOP Concept Used
+
+Multilevel Inheritance
+
+Person
+  ↓
+Employee
+  ↓
+Manager
+
+Here:
+
+- "Person" → Base class
+- "Employee" → Derived from "Person"
+- "Manager" → Derived from "Employee"
+- Inheritance Type → Multilevel Inheritance
+
+"Employee" inherits from "Person", and "Manager" inherits from "Employee". This forms a chain of inheritance, which is known as Multilevel Inheritance.
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Classes and Objects
+- Constructors
+- Multilevel Inheritance
+- Base and Derived Classes
+- Public Inheritance
+- Protected Access Specifier
+- Constructor Chaining
+- Member Functions
+- Code Reusability
