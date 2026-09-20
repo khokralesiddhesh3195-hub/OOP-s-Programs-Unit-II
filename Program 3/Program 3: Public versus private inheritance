@@ -1,0 +1,109 @@
+Public and Private Inheritance
+
+📌 Description
+
+This C++ program demonstrates the difference between Public Inheritance and Private Inheritance.
+
+The program uses one Base class and two derived classes:
+
+- "PublicDerived"
+- "PrivateDerived"
+
+---
+
+📚 Base Class
+
+The "Base" class contains a public function called "show()".
+
+void show() const {
+    std::cout << "Base public function\n";
+}
+
+This function displays a simple message.
+
+---
+
+🔓 Public Inheritance
+
+class PublicDerived : public Base {
+};
+
+The "PublicDerived" class inherits from "Base" using public inheritance.
+
+Therefore, the public function "show()" remains public and can be accessed using an object of "PublicDerived".
+
+PublicDerived publicObject;
+publicObject.show();
+
+Output
+
+Base public function
+
+---
+
+🔒 Private Inheritance
+
+class PrivateDerived : private Base {
+
+The "PrivateDerived" class inherits from "Base" using private inheritance.
+
+Because of private inheritance, the public members of "Base" become private members of "PrivateDerived".
+
+Therefore, "show()" cannot be directly accessed outside the class.
+
+// privateObject.show();  // Error
+
+However, "PrivateDerived" can access "show()" internally through its own public function:
+
+void callBaseShow() const {
+    show();
+}
+
+So, the following is valid:
+
+PrivateDerived privateObject;
+privateObject.callBaseShow();
+
+Output
+
+Base public function
+
+---
+
+🖥️ Complete Output
+
+Base public function
+Base public function
+
+---
+
+📊 Key Difference
+
+Inheritance Type| Access to "Base::show()" from Outside
+Public Inheritance| ✅ Allowed
+Private Inheritance| ❌ Not Allowed
+
+---
+
+🧠 OOP Concept
+
+This program demonstrates accessibility in inheritance, specifically the difference between:
+
+- Public Inheritance
+- Private Inheritance
+- Access Control
+- Member Accessibility
+- Base and Derived Classes
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Inheritance
+- Public Inheritance
+- Private Inheritance
+- Access Specifiers
+- Public Members
+- Class Accessibility
+- Base and Derived Classes
+- Member Function Access
