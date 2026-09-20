@@ -1,0 +1,113 @@
+Multiple Inheritance – Academic, Sports and Student
+
+📌 Description
+
+This C++ program demonstrates Multiple Inheritance.
+
+In multiple inheritance, a single derived class inherits from more than one base class.
+
+Here:
+
+- "Academic" → One base class
+- "Sports" → Another base class
+- "Student" → Derived class inheriting from both
+
+---
+
+📊 Class Hierarchy
+
+Academic       Sports
+    \           /
+     \         /
+       Student
+
+---
+
+📚 Classes Used
+
+1. "Academic" Class
+
+The "Academic" class stores academic marks.
+
+It contains:
+
+- "academicMarks" – Stores academic marks.
+- Constructor – Initializes the academic marks.
+- "showAcademic()" – Displays the academic marks.
+
+---
+
+2. "Sports" Class
+
+The "Sports" class stores sports marks.
+
+It contains:
+
+- "sportsMarks" – Stores sports marks.
+- Constructor – Initializes the sports marks.
+- "showSports()" – Displays the sports marks.
+
+---
+
+3. "Student" Class
+
+The "Student" class inherits from both "Academic" and "Sports".
+
+class Student : public Academic, public Sports
+
+Its constructor calls both base class constructors.
+
+The "showTotal()" function calculates and displays the total marks:
+
+Total = Academic Marks + Sports Marks
+
+---
+
+⚙️ Main Function
+
+A "Student" object is created with:
+
+Student student(80, 15);
+
+Where:
+
+- "80" → Academic marks
+- "15" → Sports marks
+
+The program displays both marks and their total.
+
+---
+
+🖥️ Output
+
+Academic Marks: 80
+Sports Marks: 15
+Total Marks: 95
+
+---
+
+🧠 OOP Concept Used
+
+Multiple Inheritance
+
+       Academic       Sports
+           \           /
+            \         /
+              Student
+
+The "Student" class inherits properties and functions from both "Academic" and "Sports".
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Classes and Objects
+- Constructors
+- Multiple Inheritance
+- Multiple Base Classes
+- Derived Class
+- Public Inheritance
+- Constructor Initialization
+- Member Functions
+- Data Calculation
+- Code Reusability
