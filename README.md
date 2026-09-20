@@ -1,7 +1,7 @@
 *Object-Oriented Programming with C++ : Unit II*
 
 - **Student Name:** Siddhesh Goraksh Khokrale 
-- **ZPRN:**125UAD1094
+- **ZPRN:** 125UAD1094
 - **Class/Division:** S.Y.B- Tech (Div : B)
 - **Course Name:** Object-Oriented Programming with C++
 - **Course Code:** ADPC303
@@ -19,7 +19,7 @@ The repository also includes real-time application examples related to employee 
 
 ---
 
-Unit II –*Topics Covered*
+**Unit II –Topics Covered**
 
 - Base and derived classes
 - Protected members
@@ -37,7 +37,7 @@ Unit II –*Topics Covered*
 
 ---
 
-*List of Programs*
+**List of Programs**
 
 ## A. Inheritance Practical Programs
 
