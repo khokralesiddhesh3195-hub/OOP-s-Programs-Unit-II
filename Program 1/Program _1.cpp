@@ -1,4 +1,4 @@
-#include <iostream>      // Used for input and output operations
+#include <iostream>     // Used for input and output operations
 #include <string>        // Used to work with string data
 #include <utility>       // Used for std::move()
 
