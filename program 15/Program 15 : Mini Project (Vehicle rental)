@@ -1,0 +1,118 @@
+C++ Vehicle Rental System
+
+📌 Description
+
+This C++ program demonstrates a simple Vehicle Rental System using Inheritance and Polymorphism.
+
+It calculates rental charges for different types of vehicles, such as Cars and Bikes, using different rental calculation rules.
+
+---
+
+🧠 Concepts Used
+
+- Inheritance
+- Polymorphism
+- Function Overriding
+- Constructors
+- Encapsulation
+- Virtual Functions
+- Destructor
+
+---
+
+⚙️ Working
+
+The program works as follows:
+
+1. "Vehicle" is the base class containing:
+   - Registration number
+   - Daily rental rate
+2. "Car" inherits from "Vehicle" and stores the number of doors.
+3. "Bike" inherits from "Vehicle" and stores the engine capacity.
+4. "calculateRent()" calculates the basic rental amount.
+5. "Bike" overrides "calculateRent()" and provides a 10% discount.
+6. "display()" shows the details of each vehicle.
+
+---
+
+💰 Rental Calculation
+
+🚗 Car
+
+Formula:
+
+Rent = Rate × Number of Days
+
+For 3 days:
+
+₹2000 × 3 = ₹6000
+
+🏍️ Bike
+
+Formula:
+
+Rent = Rate × Number of Days × 0.9
+
+For 3 days:
+
+₹800 × 3 × 0.9 = ₹2160
+
+---
+
+🖥️ Sample Output
+
+Car Details
+Registration: MH12AB1234
+Rate per day: 2000
+Doors: 5
+Rent for 3 days: 6000
+
+Bike Details
+Registration: MH12CD5678
+Rate per day: 800
+Engine Capacity: 150 cc
+Rent for 3 days: 2160
+
+---
+
+🏗️ Class Structure
+
+             Vehicle
+             /     \
+            ↓       ↓
+          Car      Bike
+
+- "Vehicle" → Base class
+- "Car" → Derived class
+- "Bike" → Derived class
+
+---
+
+🧠 OOP Concept Used
+
+Inheritance and Polymorphism
+
+The program uses a virtual "calculateRent()" function in the base class. The "Bike" class overrides this function to apply a different rental calculation.
+
+This demonstrates runtime polymorphism, where different vehicle types can provide their own implementation of the same function.
+
+---
+
+🎯 Objective
+
+To understand how inheritance, virtual functions, and function overriding can be used to implement different rental calculations for different types of vehicles.
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Base and Derived Classes
+- Inheritance
+- Runtime Polymorphism
+- Virtual Functions
+- Function Overriding
+- Constructors
+- Destructors
+- Encapsulation
+- Rental Calculation
+- Code Reusability
