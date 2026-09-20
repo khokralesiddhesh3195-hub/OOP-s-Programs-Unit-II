@@ -1,0 +1,77 @@
+Protected member access– Employee and Developer
+
+📌 Description
+
+This C++ program demonstrates Single Inheritance using two classes: "Employee" and "Developer".
+
+The "Developer" class inherits the "name" property from the "Employee" class and adds its own "language" property.
+
+---
+
+📚 Classes Used
+
+1. "Employee" Class
+
+The "Employee" class is the base class.
+
+It contains:
+
+- "name" – Stores the employee's name.
+- Constructor – Initializes the employee's name.
+- "protected" access specifier – Allows the derived "Developer" class to access "name".
+
+2. "Developer" Class
+
+The "Developer" class is the derived class of "Employee".
+
+It contains:
+
+- "language" – Stores the programming language.
+- Constructor – Initializes the employee's name and programming language.
+- "display()" – Displays the developer's details.
+
+---
+
+⚙️ Main Function
+
+In the "main()" function:
+
+1. A "Developer" object is created.
+2. The name "Neha" and programming language "C++" are passed to the constructor.
+3. The "display()" function is called to display the details.
+
+---
+
+🖥️ Output
+
+Developer: Neha
+Language: C++
+
+---
+
+🧠 OOP Concept Used
+
+Single Inheritance
+
+Employee
+    ↓
+Developer
+
+Here:
+
+- "Employee" → Base Class
+- "Developer" → Derived Class
+- Inheritance Type → Single Inheritance
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Classes and Objects
+- Constructors
+- Single Inheritance
+- Base and Derived Classes
+- Protected Access Specifier
+- Member Functions
+- Constructor Initialization
+- Code Reusability
