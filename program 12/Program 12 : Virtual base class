@@ -1,0 +1,103 @@
+Virtual Inheritance
+
+📌 Description
+
+This C++ program demonstrates Multiple Inheritance and Virtual Inheritance using four classes:
+
+- "Person"
+- "Student"
+- "Employee"
+- "TeachingAssistant"
+
+The "TeachingAssistant" class inherits from both "Student" and "Employee", while both classes virtually inherit from "Person".
+
+Virtual inheritance ensures that only one shared copy of the "Person" base class exists in "TeachingAssistant".
+
+---
+
+🧠 Concepts Used
+
+- Classes and Objects
+- Inheritance
+- Multiple Inheritance
+- Virtual Inheritance
+- Constructors
+- Protected Data Members
+- "std::string"
+- Diamond Problem Resolution
+
+---
+
+📊 Class Structure
+
+          Person
+         /      \
+        ↓        ↓
+    Student    Employee
+        \        /
+         ↓      ↓
+    TeachingAssistant
+
+---
+
+⚙️ Working
+
+The program works as follows:
+
+1. "Person" stores the person's name.
+2. "Student" and "Employee" virtually inherit from "Person".
+3. "TeachingAssistant" inherits from both "Student" and "Employee".
+4. Due to virtual inheritance, only one copy of "Person" is present in "TeachingAssistant".
+5. "TeachingAssistant" directly initializes the "Person" constructor with the name "Riya".
+6. The "displayName()" function displays the person's name.
+
+---
+
+🖥️ Sample Output
+
+Name: Riya
+
+---
+
+🧠 OOP Concept Used
+
+Virtual Inheritance
+
+Virtual inheritance is used to solve the Diamond Problem in multiple inheritance.
+
+          Person
+         /      \
+   Student    Employee
+         \      /
+     TeachingAssistant
+
+Without virtual inheritance, "TeachingAssistant" could contain two copies of "Person"—one through "Student" and another through "Employee".
+
+By using:
+
+class Student : virtual public Person
+
+and
+
+class Employee : virtual public Person
+
+only one shared "Person" base-class subobject is created.
+
+---
+
+🎯 Objective
+
+To understand Virtual Inheritance and how it solves the Diamond Problem in C++ multiple inheritance.
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Virtual Base Class
+- Virtual Inheritance
+- Multiple Inheritance
+- Diamond Problem
+- Constructor Initialization
+- Protected Data Members
+- Classes and Objects
+- Code Reusability
