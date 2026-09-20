@@ -1,0 +1,76 @@
+💼 Employee Salary Calculation using C++
+
+📌 Description
+
+This C++ program demonstrates Abstraction, Inheritance, and Polymorphism by calculating salaries for different types of employees.
+
+The program supports:
+
+- Permanent Employee
+- Contract Employee
+
+🧠 Concepts Used
+
+- Abstract Class
+- Pure Virtual Function
+- Inheritance
+- Polymorphism
+- Function Overriding
+- Encapsulation
+- Constructors
+
+⚙️ Working
+
+- "Employee" is an abstract base class.
+- It stores the employee ID and name.
+- "calculateSalary()" is declared as a pure virtual function.
+- "PermanentEmployee" calculates salary using Basic Salary + Allowance.
+- "ContractEmployee" calculates salary using Hourly Rate × Hours Worked.
+- "displayPaySlip()" uses a base-class reference to display employee details and salary for both employee types.
+
+💰 Salary Calculation
+
+Permanent Employee
+
+Salary = Basic Salary + Allowance
+
+Contract Employee
+
+Salary = Hourly Rate × Hours Worked
+
+🏗️ Class Structure
+
+              Employee
+            (Abstract Class)
+                  |
+          -------------------
+          |                 |
+ PermanentEmployee    ContractEmployee
+
+🖥️ Sample Output
+
+Employee ID: 101
+Name: Asha
+Salary: 48000
+
+Employee ID: 102
+Name: Vikas
+Salary: 40000
+
+🧠 OOP Concept Demonstrated
+
+The program uses runtime polymorphism through the abstract "Employee" class. The "calculateSalary()" function is overridden by both derived classes, allowing each employee type to calculate salary according to its own rules.
+
+🎯 Objective
+
+To understand how abstract classes and runtime polymorphism can be used to calculate salaries differently for different types of employees.
+
+🔑 Key Concepts Demonstrated
+
+- Abstraction – Hides the implementation details of salary calculation.
+- Inheritance – "PermanentEmployee" and "ContractEmployee" inherit from "Employee".
+- Polymorphism – Different employee types implement "calculateSalary()" differently.
+- Pure Virtual Function – Defines the salary calculation interface.
+- Function Overriding – Derived classes provide their own salary calculation.
+- Encapsulation – Employee information and operations are grouped within classes.
+- Constructors – Used to initialize employee details.
