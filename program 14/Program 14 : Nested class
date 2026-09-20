@@ -1,0 +1,80 @@
+Nested Class in C++
+
+📌 Description
+
+This C++ program demonstrates the concept of a Nested Class.
+
+The "Department" class is defined inside the "University" class and is used to store and display the department name.
+
+---
+
+🧠 Concepts Used
+
+- Classes and Objects
+- Nested Class
+- Constructors
+- Encapsulation
+- "std::string"
+- "std::move()"
+- Scope Resolution Operator "::"
+
+---
+
+⚙️ Working
+
+The program works as follows:
+
+1. "University" is the outer class.
+2. "Department" is a class defined inside "University".
+3. The "Department" class contains a private "name" variable.
+4. Its constructor initializes the department name.
+5. The "display()" function prints the department name.
+6. The nested class object is created using:
+   University::Department
+
+---
+
+🖥️ Sample Output
+
+Department: Artificial Intelligence and Data Science
+
+---
+
+🧠 OOP Concept Used
+
+Nested Class
+
+A nested class is a class declared inside another class.
+
+In this program:
+
+class University {
+    class Department {
+        // ...
+    };
+};
+
+The "Department" class is nested inside the "University" class.
+
+The nested class can be accessed using the scope resolution operator "::":
+
+University::Department
+
+---
+
+🎯 Objective
+
+To understand how a nested class can be declared inside another class and accessed using the scope resolution operator "::".
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Nested Classes
+- Classes and Objects
+- Constructors
+- Encapsulation
+- Private Data Members
+- "std::string"
+- "std::move()"
+- Scope Resolution Operator
