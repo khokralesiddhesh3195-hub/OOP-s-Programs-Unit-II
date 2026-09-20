@@ -1,0 +1,128 @@
+Constructor & Destructor in Inheritance
+
+📌 Description
+
+This C++ program demonstrates the order of execution of constructors and destructors in inheritance.
+
+The program contains two classes:
+
+- "Base" → Parent/Base class
+- "Derived" → Child/Derived class
+
+The "Derived" class inherits from the "Base" class.
+
+---
+
+📊 Class Structure
+
+Base
+  ↓
+Derived
+
+---
+
+📚 Base Class
+
+The "Base" class contains a constructor and a destructor.
+
+Constructor
+
+Base() {
+    std::cout << "Base constructor\n";
+}
+
+The constructor is automatically called when a "Base" object or a derived object is created.
+
+Destructor
+
+~Base() {
+    std::cout << "Base destructor\n";
+}
+
+The destructor is automatically called when the object is destroyed.
+
+---
+
+📚 Derived Class
+
+The "Derived" class inherits from "Base".
+
+It contains its own constructor and destructor.
+
+Constructor
+
+Derived() {
+    std::cout << "Derived constructor\n";
+}
+
+Destructor
+
+~Derived() {
+    std::cout << "Derived destructor\n";
+}
+
+---
+
+⚙️ Main Function
+
+A "Derived" object is created:
+
+Derived object;
+
+Object Creation
+
+When the "Derived" object is created:
+
+1. "Base" constructor executes first.
+2. "Derived" constructor executes second.
+
+Object Destruction
+
+When the object goes out of scope:
+
+1. "Derived" destructor executes first.
+2. "Base" destructor executes second.
+
+---
+
+🖥️ Output
+
+Base constructor
+Derived constructor
+Derived destructor
+Base destructor
+
+---
+
+🧠 Important Concept
+
+Constructor Order
+
+Base → Derived
+
+Base Constructor
+      ↓
+Derived Constructor
+
+Destructor Order
+
+Derived → Base
+
+Derived Destructor
+      ↓
+Base Destructor
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Inheritance
+- Base and Derived Classes
+- Constructors
+- Destructors
+- Constructor Execution Order
+- Destructor Execution Order
+- Object Creation and Destruction
+- Code Reusability
+
+«Rule: In inheritance, constructors execute from Base → Derived, while destructors execute in the reverse order, Derived → Base.»
