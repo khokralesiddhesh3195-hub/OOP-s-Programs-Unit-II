@@ -1,4 +1,4 @@
-📘 Object-Oriented Programming with C++ – Unit II
+****📘 Object-Oriented Programming with C++ – Unit II****
 
 <div align="center">🎓 Unit II – Inheritance
 
@@ -6,21 +6,20 @@ Object-Oriented Programming with C++
 
 </div>---
 
-👨‍🎓 Student Information
+***👨‍🎓 Student Information***
 
-📌 Details| 📝 Information
-Student Name| Siddhesh Goraksh Khokrale
-ZPRN| 125UAD1094
-Class / Division| S.Y. B-Tech (Div: B)
-Course Name| Object-Oriented Programming with C++
-Course Code| ADPC303
-Programme| S.Y. B.Tech. Artificial Intelligence and Data Science
-Unit| II – Inheritance
-Programming Language| C++
+**👤 Student Name:** Siddhesh Goraksh Khokrale
+**🆔 ZPRN:** 125UAD1094
+**🏫 Class / Division:** S.Y. B-Tech (Div: B)
+**📚 Course Name:** Object-Oriented Programming with C++
+**🔢 Course Code:** ADPC303
+**🎓 Programme:** S.Y. B.Tech. Artificial Intelligence and Data Science
+**📖 Unit:** II – Inheritance
+**💻 Programming Language:** C++
 
 ---
 
-📖 About the Repository
+***📖 About the Repository***
 
 This repository contains C++ programs based on Unit II: Inheritance of the Object-Oriented Programming with C++ course.
 
@@ -49,28 +48,27 @@ The repository also includes real-time application examples related to:
 
 ---
 
-📚 Unit II – Topics Covered
+**📚 Unit II – Topics Covered***
 
-🔢| 📌 Topic
-1️⃣| Base and Derived Classes
-2️⃣| Protected Members
-3️⃣| Relationship between Base and Derived Classes
-4️⃣| Constructors and Destructors in Derived Classes
-5️⃣| Function Overriding
-6️⃣| Class Hierarchies
-7️⃣| Public and Private Inheritance
-8️⃣| Types of Inheritance
-9️⃣| Multiple-Inheritance Ambiguity
-🔟| Virtual Base Classes
-1️⃣1️⃣| Abstract Classes
-1️⃣2️⃣| Friend Classes
-1️⃣3️⃣| Nested Classes
+- 🧬 Base and Derived Classes
+- 🔐 Protected Members
+- 🔗 Relationship between Base and Derived Classes
+- 🏗️ Constructors and Destructors in Derived Classes
+- 🔄 Function Overriding
+- 🌳 Class Hierarchies
+- 🔓 Public and Private Inheritance
+- 🧩 Types of Inheritance
+- ⚠️ Multiple-Inheritance Ambiguity
+- 💠 Virtual Base Classes
+- 🧱 Abstract Classes
+- 🤝 Friend Classes
+- 📦 Nested Classes
 
 ---
 
-💻 List of Programs
+***💻 List of Programs***
 
-🔹 A. Inheritance Practical Programs
+*🔹 A. Inheritance Practical Programs*
 
 1️⃣ Basic Single Inheritance
 
@@ -242,7 +240,7 @@ Salary is calculated using overridden functions, demonstrating runtime polymorph
 
 ---
 
-🌐 B. Unit II – Real-Time Applications
+*🌐 B. Unit II – Real-Time Applications*
 
 The following programs are based on the Unit II section of the Unit-Wise Real-Time Applications and Live Examples material.
 
@@ -317,26 +315,23 @@ Virtual functions are used to provide account-specific behavior for different ty
 
 ---
 
-🧠 OOP Concepts Demonstrated
+***🧠 OOP Concepts Demonstrated***
 
-Throughout these programs, the following major Object-Oriented Programming concepts are demonstrated:
-
-🧩 Concept| 📖 Description
-Inheritance| Reusing properties and behaviors of an existing class
-Encapsulation| Binding data and functions together inside classes
-Abstraction| Hiding implementation details and exposing essential functionality
-Polymorphism| Allowing the same interface to exhibit different behavior
-Function Overriding| Redefining a base-class function in a derived class
-Virtual Functions| Supporting runtime polymorphism
-Pure Virtual Functions| Defining interfaces for abstract classes
-Constructor Chaining| Calling base-class constructors during derived-object creation
-Virtual Inheritance| Avoiding duplicate base-class instances in diamond inheritance
-Friend Class| Providing special access to private members
-Nested Class| Defining a class within another class
+- 🧬 Inheritance – Reusing properties and behaviors of an existing class.
+- 🔐 Encapsulation – Binding data and functions together within classes.
+- 🎭 Abstraction – Hiding implementation details and exposing essential functionality.
+- 🔄 Polymorphism – Allowing the same interface to perform different behaviors.
+- 🛠️ Function Overriding – Redefining a base-class function in a derived class.
+- ⚡ Virtual Functions – Supporting runtime polymorphism.
+- 🎯 Pure Virtual Functions – Defining interfaces for abstract classes.
+- 🏗️ Constructor Chaining – Calling base-class constructors during derived-object creation.
+- 💠 Virtual Inheritance – Avoiding duplicate base-class instances in diamond inheritance.
+- 🤝 Friend Class – Providing special access to private members of another class.
+- 📦 Nested Class – Defining a class within another class.
 
 ---
 
-🛠️ Technologies Used
+***🛠️ Technologies Used***
 
 - 💻 Language: C++
 - 🧑‍💻 Programming Paradigm: Object-Oriented Programming
@@ -346,7 +341,7 @@ Nested Class| Defining a class within another class
 
 ---
 
-🎯 Learning Objectives
+***🎯 Learning Objectives***
 
 By completing these programs, the following concepts can be understood and practiced:
 
@@ -364,38 +359,7 @@ By completing these programs, the following concepts can be understood and pract
 
 ---
 
-📂 Repository Structure
-
-📁 OOP-with-CPP
-│
-└── 📁 Unit-II-Inheritance
-    │
-    ├── 📄 01_Basic_Single_Inheritance.cpp
-    ├── 📄 02_Protected_Member_Access.cpp
-    ├── 📄 03_Public_Private_Inheritance.cpp
-    ├── 📄 04_Multilevel_Inheritance.cpp
-    ├── 📄 05_Hierarchical_Inheritance.cpp
-    ├── 📄 06_Multiple_Inheritance.cpp
-    ├── 📄 07_Multiple_Inheritance_Ambiguity.cpp
-    ├── 📄 08_Constructor_Destructor_Order.cpp
-    ├── 📄 09_Parameterized_Base_Constructor.cpp
-    ├── 📄 10_Function_Overriding.cpp
-    ├── 📄 11_Abstract_Class.cpp
-    ├── 📄 12_Virtual_Inheritance.cpp
-    ├── 📄 13_Friend_Class.cpp
-    ├── 📄 14_Nested_Class.cpp
-    ├── 📄 15_Vehicle_Rental_System.cpp
-    ├── 📄 16_Employee_Payroll_System.cpp
-    ├── 📄 17_Employee_Payroll_Real_Time.cpp
-    ├── 📄 18_Digital_Payment_Gateway.cpp
-    ├── 📄 19_Vehicle_Fleet_Management.cpp
-    ├── 📄 20_Banking_System.cpp
-    │
-    └── 📄 README.md
-
----
-
-📌 Conclusion
+***📌 Conclusion***
 
 This repository provides a practical implementation of Unit II – Inheritance in Object-Oriented Programming with C++.
 
