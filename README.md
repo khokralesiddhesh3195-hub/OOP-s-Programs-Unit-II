@@ -1,6 +1,6 @@
-****📘 Object-Oriented Programming with C++ – Unit II****
+<div align="center">****📘 Object-Oriented Programming with C++ – Unit II****
 
-<div align="center">🎓 Unit II – Inheritance
+   🎓 Unit II – Inheritance
 
 Object-Oriented Programming with C++
 
