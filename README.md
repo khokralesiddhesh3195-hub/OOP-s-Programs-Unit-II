@@ -1,157 +1,412 @@
-*Object-Oriented Programming with C++ : Unit II*
+📘 Object-Oriented Programming with C++ – Unit II
 
-- **Student Name:** Siddhesh Goraksh Khokrale 
-- **ZPRN:** 125UAD1094
-- **Class/Division:** S.Y.B- Tech (Div : B)
-- **Course Name:** Object-Oriented Programming with C++
-- **Course Code:** ADPC303
-- **Programme:** S.Y. B.Tech. Artificial Intelligence and Data Science
-- **Unit:** II – Inheritance
-- **Language:** C++
+<div align="center">🎓 Unit II – Inheritance
 
----
+Object-Oriented Programming with C++
 
-This repository contains C++ programs based on **Unit II: Inheritance** of the Object-Oriented Programming with C++ course.
+</div>---
 
-The programs demonstrate fundamental and practical concepts of inheritance, including base and derived classes, protected members, different types of inheritance, constructor and destructor order, function overriding, abstract classes, virtual base classes, friend classes, and nested classes.
+👨‍🎓 Student Information
 
-The repository also includes real-time application examples related to employee payroll, digital payments, and vehicle fleet management.
-
----
-
-**Unit II –Topics Covered**
-
-- Base and derived classes
-- Protected members
-- Relationship between base and derived classes
-- Constructors and destructors in derived classes
-- Function overriding
-- Class hierarchies
-- Public and private inheritance
-- Types of inheritance
-- Multiple-inheritance ambiguity
-- Virtual base classes
-- Abstract classes
-- Friend classes
-- Nested classes
+📌 Details| 📝 Information
+Student Name| Siddhesh Goraksh Khokrale
+ZPRN| 125UAD1094
+Class / Division| S.Y. B-Tech (Div: B)
+Course Name| Object-Oriented Programming with C++
+Course Code| ADPC303
+Programme| S.Y. B.Tech. Artificial Intelligence and Data Science
+Unit| II – Inheritance
+Programming Language| C++
 
 ---
 
-**List of Programs**
+📖 About the Repository
 
-## A. Inheritance Practical Programs
+This repository contains C++ programs based on Unit II: Inheritance of the Object-Oriented Programming with C++ course.
 
-*1. Basic Single Inheritance*
-**Concept:** Base and derived classes
+The programs demonstrate fundamental and practical concepts of Inheritance, including:
 
-Demonstrates basic single inheritance using `Person` as the base class and `Student` as the derived class. It shows how a derived class can use accessible members of its base class.
+- 🏛️ Base and Derived Classes
+- 🔐 Protected Members
+- 🔗 Relationships between Base and Derived Classes
+- 🏗️ Constructors and Destructors
+- 🔄 Function Overriding
+- 🌳 Class Hierarchies
+- 🔓 Public and Private Inheritance
+- 🧬 Different Types of Inheritance
+- ⚠️ Multiple-Inheritance Ambiguity
+- 💠 Virtual Base Classes
+- 🧩 Abstract Classes
+- 🤝 Friend Classes
+- 📦 Nested Classes
 
-*2. Protected Member Access*
-**Concept:** Protected access specifier
+The repository also includes real-time application examples related to:
+
+- 💼 Employee Payroll
+- 💳 Digital Payment Gateway
+- 🚚 Vehicle Fleet Management
+- 🏦 Banking System
+
+---
+
+📚 Unit II – Topics Covered
+
+🔢| 📌 Topic
+1️⃣| Base and Derived Classes
+2️⃣| Protected Members
+3️⃣| Relationship between Base and Derived Classes
+4️⃣| Constructors and Destructors in Derived Classes
+5️⃣| Function Overriding
+6️⃣| Class Hierarchies
+7️⃣| Public and Private Inheritance
+8️⃣| Types of Inheritance
+9️⃣| Multiple-Inheritance Ambiguity
+🔟| Virtual Base Classes
+1️⃣1️⃣| Abstract Classes
+1️⃣2️⃣| Friend Classes
+1️⃣3️⃣| Nested Classes
+
+---
+
+💻 List of Programs
+
+🔹 A. Inheritance Practical Programs
+
+1️⃣ Basic Single Inheritance
+
+📌 Concept: Base and Derived Classes
+
+Demonstrates basic single inheritance using "Person" as the base class and "Student" as the derived class. It shows how a derived class can use accessible members of its base class.
+
+---
+
+2️⃣ Protected Member Access
+
+📌 Concept: Protected Access Specifier
 
 Demonstrates how a derived class can directly access a protected data member inherited from its base class.
 
-*3. Public versus Private Inheritance*
-**Concept:** Inheritance modes
+---
+
+3️⃣ Public vs Private Inheritance
+
+📌 Concept: Inheritance Modes
 
 Demonstrates the difference between public and private inheritance and shows how the accessibility of inherited members changes.
 
-*4. Multilevel Inheritance*
-**Concept:** Three-level inheritance hierarchy
+---
+
+4️⃣ Multilevel Inheritance
+
+📌 Concept: Three-Level Inheritance Hierarchy
 
 Demonstrates multilevel inheritance using the hierarchy:
 
-`Person → Employee → Manager`
+Person
+   ↓
+Employee
+   ↓
+Manager
 
 The program shows how properties and functions are inherited through multiple levels.
 
-*5. Hierarchical Inheritance*
-**Concept:** One base class with multiple derived classes
+---
 
-Demonstrates hierarchical inheritance using `Vehicle` as the common base class and `Car` and `Bike` as derived classes.
+5️⃣ Hierarchical Inheritance
 
-*6. Multiple Inheritance*
-**Concept:** Two base classes
+📌 Concept: One Base Class with Multiple Derived Classes
 
-Demonstrates multiple inheritance where the `Student` class inherits from both `Academic` and `Sports` classes and calculates the total marks.
+Demonstrates hierarchical inheritance using "Vehicle" as the common base class and "Car" and "Bike" as derived classes.
 
-*7. Resolving Multiple-Inheritance Ambiguity*
-**Concept:** Scope-resolution operator
-
-Demonstrates how ambiguity caused by two base classes having functions with the same name can be resolved using the scope-resolution operator.
-
-*8. Constructor and Destructor Order*
-**Concept:** Object lifecycle
-
-Demonstrates the order in which constructors and destructors are called in inheritance.
-
-- Construction: Base → Derived
-- Destruction: Derived → Base
-
-*9. Parameterized Base Constructor*
-**Concept:** Constructor initializer list
-
-Demonstrates how a derived-class constructor initializes a parameterized constructor of its base class.
-
-*10. Function Overriding*
-**Concept:** `virtual` and `override`
-
-Demonstrates function overriding using virtual functions, where derived classes provide their own implementation of a base-class function.
-
-*11. Abstract Class*
-**Concept:** Pure virtual function
-
-Demonstrates the use of an abstract base class containing a pure virtual function. Derived classes implement the required functionality.
-
-*12. Virtual Base Class and Diamond Inheritance*
-**Concept:** Virtual inheritance
-
-Demonstrates how a virtual base class prevents duplicate copies of a common base class in diamond inheritance.
-
-*13. Friend Class*
-**Concept:** Special access permission
-
-Demonstrates how a friend class can access private members of another class when explicitly granted friendship.
-
-*14. Nested Class*
-**Concept:** Class inside another class
-
-Demonstrates the creation and use of a nested class using `University` and its nested `Department` class.
-
-*15. Mini-Project – Vehicle Rental System*
-**Concept:** Integrated inheritance
-
-Implements a vehicle rental application using a base `Vehicle` class and derived classes such as `Car` and `Bike`. The program calculates rental charges and demonstrates function overriding.
-
-*16. Mini-Project – Employee Payroll System*
-**Concept:** Abstract base class and function overriding
-
-Implements an employee salary system using an abstract `Employee` class and derived classes for different employee types. Salary is calculated using overridden functions.
+        Vehicle
+        /     \
+      Car     Bike
 
 ---
 
-## B. Unit II Real-Time Applications
+6️⃣ Multiple Inheritance
 
-The following programs are taken from the
+📌 Concept: Two Base Classes
 
- **Unit II section of the Unit-Wise Real-Time Applications and Live Examples** material.
+Demonstrates multiple inheritance where the "Student" class inherits from both "Academic" and "Sports" classes and calculates the total marks.
 
-*17. Employee Payroll System*
-**Concepts:** Base and derived classes, protected members, hierarchical inheritance, constructor chaining, function overriding, and abstract base class.
+Academic     Sports
+     \         /
+      \       /
+       Student
 
-Models full-time employees, part-time employees, and interns. All employee types share common information while implementing different salary-calculation methods.
+---
 
-*18. Digital Payment Gateway*
-**Concepts:** Abstract class, hierarchical inheritance, pure virtual function, virtual destructor, and runtime polymorphism.
+7️⃣ Resolving Multiple-Inheritance Ambiguity
 
-Demonstrates a payment gateway supporting different payment methods such as credit-card, UPI, and net-banking through a common interface.
+📌 Concept: Scope-Resolution Operator
 
-*19. Vehicle Fleet Management*
-**Concepts:** Base and derived classes, hierarchical inheritance, function overriding, virtual functions, and protected data.
+Demonstrates how ambiguity caused by two base classes having functions with the same name can be resolved using the scope-resolution operator ("::").
 
-Models a logistics fleet containing trucks, delivery vans, and delivery bikes. Common vehicle information is maintained in the base class while each derived class provides specialized information.
+---
 
-*20. Mini-Project – Banking System with Account Hierarchy*
-**Concept:** Hierarchical inheritance and virtual functions
+8️⃣ Constructor and Destructor Order
 
-Implements a banking system using a base `Account` class and derived classes `SavingsAccount`, `CurrentAccount`, and `FixedDepositAccount`. The program includes account number, account holder name, balance, deposit and withdrawal operations, and interest calculation. Virtual functions are used to provide account-specific behavior.
+📌 Concept: Object Lifecycle
+
+Demonstrates the order in which constructors and destructors are called in inheritance.
+
+🏗️ Construction : Base → Derived
+🗑️ Destruction  : Derived → Base
+
+---
+
+9️⃣ Parameterized Base Constructor
+
+📌 Concept: Constructor Initializer List
+
+Demonstrates how a derived-class constructor initializes a parameterized constructor of its base class using a constructor initializer list.
+
+---
+
+🔟 Function Overriding
+
+📌 Concept: "virtual" and "override"
+
+Demonstrates function overriding using virtual functions, where derived classes provide their own implementation of a base-class function.
+
+---
+
+1️⃣1️⃣ Abstract Class
+
+📌 Concept: Pure Virtual Function
+
+Demonstrates the use of an abstract base class containing a pure virtual function. Derived classes implement the required functionality.
+
+virtual void calculate() = 0;
+
+---
+
+1️⃣2️⃣ Virtual Base Class and Diamond Inheritance
+
+📌 Concept: Virtual Inheritance
+
+Demonstrates how a virtual base class prevents duplicate copies of a common base class in diamond inheritance.
+
+          A
+        /   \
+       B     C
+        \   /
+          D
+
+Virtual inheritance ensures that class "D" contains only one shared instance of class "A".
+
+---
+
+1️⃣3️⃣ Friend Class
+
+📌 Concept: Special Access Permission
+
+Demonstrates how a friend class can access private members of another class when explicitly granted friendship.
+
+---
+
+1️⃣4️⃣ Nested Class
+
+📌 Concept: Class Inside Another Class
+
+Demonstrates the creation and use of a nested class using "University" and its nested "Department" class.
+
+University
+    └── Department
+
+---
+
+1️⃣5️⃣ Mini-Project – Vehicle Rental System
+
+📌 Concept: Integrated Inheritance
+
+Implements a Vehicle Rental System using a base "Vehicle" class and derived classes such as "Car" and "Bike".
+
+The program:
+
+- 🚗 Manages different vehicle types
+- 💰 Calculates rental charges
+- 🔄 Demonstrates function overriding
+- 🧬 Uses inheritance and polymorphism
+
+---
+
+1️⃣6️⃣ Mini-Project – Employee Payroll System
+
+📌 Concept: Abstract Base Class and Function Overriding
+
+Implements an Employee Salary System using an abstract "Employee" class and derived classes for different employee types.
+
+Salary is calculated using overridden functions, demonstrating runtime polymorphism.
+
+---
+
+🌐 B. Unit II – Real-Time Applications
+
+The following programs are based on the Unit II section of the Unit-Wise Real-Time Applications and Live Examples material.
+
+---
+
+1️⃣7️⃣ Employee Payroll System
+
+📌 Concepts: Base and Derived Classes, Protected Members, Hierarchical Inheritance, Constructor Chaining, Function Overriding, Abstract Base Class
+
+Models different types of employees such as:
+
+- 👨‍💼 Full-Time Employee
+- 🕐 Part-Time Employee
+- 🎓 Intern
+
+All employee types share common information while implementing their own salary-calculation methods.
+
+---
+
+1️⃣8️⃣ Digital Payment Gateway
+
+📌 Concepts: Abstract Class, Hierarchical Inheritance, Pure Virtual Function, Virtual Destructor, Runtime Polymorphism
+
+Demonstrates a payment gateway supporting different payment methods through a common interface.
+
+Supported payment methods include:
+
+- 💳 Credit Card
+- 📱 UPI
+- 🏦 Net Banking
+
+The program demonstrates how runtime polymorphism allows different payment methods to implement their own behavior.
+
+---
+
+1️⃣9️⃣ Vehicle Fleet Management
+
+📌 Concepts: Base and Derived Classes, Hierarchical Inheritance, Function Overriding, Virtual Functions, Protected Data
+
+Models a logistics fleet containing:
+
+- 🚛 Trucks
+- 🚐 Delivery Vans
+- 🛵 Delivery Bikes
+
+Common vehicle information is maintained in the base class, while each derived class provides specialized information.
+
+---
+
+2️⃣0️⃣ Mini-Project – Banking System with Account Hierarchy
+
+📌 Concept: Hierarchical Inheritance and Virtual Functions
+
+Implements a Banking System using a base "Account" class and derived classes:
+
+                 Account
+                /   |    \
+               /    |     \
+       Savings   Current   Fixed Deposit
+       Account   Account      Account
+
+The program includes:
+
+- 🆔 Account Number
+- 👤 Account Holder Name
+- 💰 Balance
+- ➕ Deposit Operation
+- ➖ Withdrawal Operation
+- 📈 Interest Calculation
+
+Virtual functions are used to provide account-specific behavior for different types of bank accounts.
+
+---
+
+🧠 OOP Concepts Demonstrated
+
+Throughout these programs, the following major Object-Oriented Programming concepts are demonstrated:
+
+🧩 Concept| 📖 Description
+Inheritance| Reusing properties and behaviors of an existing class
+Encapsulation| Binding data and functions together inside classes
+Abstraction| Hiding implementation details and exposing essential functionality
+Polymorphism| Allowing the same interface to exhibit different behavior
+Function Overriding| Redefining a base-class function in a derived class
+Virtual Functions| Supporting runtime polymorphism
+Pure Virtual Functions| Defining interfaces for abstract classes
+Constructor Chaining| Calling base-class constructors during derived-object creation
+Virtual Inheritance| Avoiding duplicate base-class instances in diamond inheritance
+Friend Class| Providing special access to private members
+Nested Class| Defining a class within another class
+
+---
+
+🛠️ Technologies Used
+
+- 💻 Language: C++
+- 🧑‍💻 Programming Paradigm: Object-Oriented Programming
+- 📚 Topic: Unit II – Inheritance
+- 🔧 Compiler: Any standard C++ compiler
+- 📦 Repository: GitHub
+
+---
+
+🎯 Learning Objectives
+
+By completing these programs, the following concepts can be understood and practiced:
+
+- ✅ Understand different types of inheritance in C++
+- ✅ Implement relationships between base and derived classes
+- ✅ Understand access control using "public", "private", and "protected"
+- ✅ Understand constructor and destructor execution order
+- ✅ Implement function overriding
+- ✅ Resolve ambiguity in multiple inheritance
+- ✅ Understand virtual inheritance
+- ✅ Implement abstract classes and pure virtual functions
+- ✅ Apply runtime polymorphism
+- ✅ Understand friend and nested classes
+- ✅ Develop inheritance-based real-world applications
+
+---
+
+📂 Repository Structure
+
+📁 OOP-with-CPP
+│
+└── 📁 Unit-II-Inheritance
+    │
+    ├── 📄 01_Basic_Single_Inheritance.cpp
+    ├── 📄 02_Protected_Member_Access.cpp
+    ├── 📄 03_Public_Private_Inheritance.cpp
+    ├── 📄 04_Multilevel_Inheritance.cpp
+    ├── 📄 05_Hierarchical_Inheritance.cpp
+    ├── 📄 06_Multiple_Inheritance.cpp
+    ├── 📄 07_Multiple_Inheritance_Ambiguity.cpp
+    ├── 📄 08_Constructor_Destructor_Order.cpp
+    ├── 📄 09_Parameterized_Base_Constructor.cpp
+    ├── 📄 10_Function_Overriding.cpp
+    ├── 📄 11_Abstract_Class.cpp
+    ├── 📄 12_Virtual_Inheritance.cpp
+    ├── 📄 13_Friend_Class.cpp
+    ├── 📄 14_Nested_Class.cpp
+    ├── 📄 15_Vehicle_Rental_System.cpp
+    ├── 📄 16_Employee_Payroll_System.cpp
+    ├── 📄 17_Employee_Payroll_Real_Time.cpp
+    ├── 📄 18_Digital_Payment_Gateway.cpp
+    ├── 📄 19_Vehicle_Fleet_Management.cpp
+    ├── 📄 20_Banking_System.cpp
+    │
+    └── 📄 README.md
+
+---
+
+📌 Conclusion
+
+This repository provides a practical implementation of Unit II – Inheritance in Object-Oriented Programming with C++.
+
+The programs progress from basic inheritance concepts to real-time applications and mini-projects, providing hands-on practice with inheritance, abstraction, polymorphism, function overriding, virtual functions, and class hierarchies.
+
+---
+
+<div align="center">⭐ Thank You for Visiting! ⭐
+
+Object-Oriented Programming with C++ | Unit II – Inheritance
+
+S.Y. B.Tech. Artificial Intelligence and Data Science
+
+</div>
