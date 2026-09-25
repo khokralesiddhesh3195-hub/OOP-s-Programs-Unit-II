@@ -6,18 +6,18 @@ S.Y. B.Tech. Artificial Intelligence and Data Science
 
 ---
 
-👨‍🎓 Student Information
+### 👨‍🎓 **Student Information**
 
-👤 Student Name: Siddhesh Goraksh Khokrale
-🆔 ZPRN: 125UAD1094
-🏫 Class / Division: S.Y. B-Tech (Div: B)
-📚 Course Name: Object-Oriented Programming with C++
-🔢 Course Code: ADPC303
-🎓 Programme: S.Y. B.Tech. Artificial Intelligence and Data Science
-📖 Units: I – IV
-💻 Programming Language: C++
+<b>👤 Student Name:</b> Siddhesh Goraksh Khokrale<br>
+<b>🆔 ZPRN:</b> 125UAD1094<br>
+<b>🏫 Class / Division:</b> S.Y. B-Tech (Div: B)<br>
+<b>📚 Course Name:</b> Object-Oriented Programming with C++<br>
+<b>🔢 Course Code:</b> ADPC303<br>
+<b>🎓 Programme:</b> S.Y. B.Tech. Artificial Intelligence and Data Science<br>
+<b>📖 Units:</b> I – IV<br>
+<b>💻 Programming Language:</b> C++
 
-</div>---
+</div>
 
 📌 About the Repository
 
