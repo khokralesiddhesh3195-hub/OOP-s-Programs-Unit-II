@@ -1,8 +1,8 @@
-<div align="center">***📘 Object-Oriented Programming with C++***
+<div align="center">📘 Object-Oriented Programming with C++
 
 S.Y. B.Tech. Artificial Intelligence and Data Science
 
-</div>---
+---</div>
 
 ### 👨‍🎓 **Student Information**
 
