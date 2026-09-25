@@ -1,4 +1,4 @@
-<div align="center">📘 Object-Oriented Programming with C++
+**<div align="center">📘 Object-Oriented Programming with C++**
 
 S.Y. B.Tech. Artificial Intelligence and Data Science
 
@@ -17,7 +17,7 @@ S.Y. B.Tech. Artificial Intelligence and Data Science
 
 ---
 
-📌 About the Repository
+***📌 About the Repository***
 
 This repository contains C++ programs developed as part of the Object-Oriented Programming with C++ (ADPC303) course.
 
@@ -29,9 +29,9 @@ The programs are organized unit-wise in the following sequence:
 
 ---
 
-📖 Unit I – C++ Fundamentals and OOP Basics
+**📖 Unit I – C++ Fundamentals and OOP Basics**
 
-📚 Topics Covered
+***📚 Topics Covered***
 
 - 🔢 Basic Data Types
 - 🔀 Decision Making
@@ -42,7 +42,7 @@ The programs are organized unit-wise in the following sequence:
 - ⚙️ Constructors
 - 🗑️ Destructors
 
-💻 Concept-Based Programs
+***💻 Concept-Based Programs***
 
 1️⃣ Basic Data Types
 
@@ -68,7 +68,7 @@ Introduces classes and objects as the fundamental building blocks of Object-Orie
 
 Demonstrates object initialization using constructors and object cleanup using destructors.
 
-🌍 Real-World Applications
+***🌍 Real-World Applications***
 
 7️⃣ Smart Agriculture Sensor Monitor
 
@@ -88,9 +88,9 @@ Demonstrates the use of classes and objects to represent and manage smart home d
 
 ---
 
-🧬 Unit II – Inheritance
+**🧬 Unit II – Inheritance**
 
-📚 Topics Covered
+***📚 Topics Covered***
 
 - 🧬 Base and Derived Classes
 - 🔐 Protected Members
@@ -106,7 +106,7 @@ Demonstrates the use of classes and objects to represent and manage smart home d
 - 🤝 Friend Classes
 - 📦 Nested Classes
 
-💻 Concept-Based Programs
+***💻 Concept-Based Programs***
 
 1️⃣ Basic Single Inheritance
 
@@ -172,7 +172,7 @@ Demonstrates inheritance concepts through a vehicle rental application.
 
 Demonstrates inheritance and polymorphism for employee salary processing.
 
-🌍 Real-World Applications
+***🌍 Real-World Applications***
 
 1️⃣7️⃣ Employee Payroll System
 
@@ -192,9 +192,9 @@ Demonstrates an account hierarchy using inheritance and related OOP concepts.
 
 ---
 
-🎭 Unit III – Polymorphism
+**🎭 Unit III – Polymorphism**
 
-📚 Topics Covered
+***📚 Topics Covered***
 
 - 🔄 Function Overloading
 - ➕ Operator Overloading
@@ -206,7 +206,7 @@ Demonstrates an account hierarchy using inheritance and related OOP concepts.
 - 🗂️ Base-Class Pointers and References
 - 🗑️ Virtual Destructors
 
-💻 Concept-Based Programs
+***💻 Concept-Based Programs***
 
 1️⃣ Function Overloading
 
@@ -272,7 +272,7 @@ Demonstrates polymorphism for different payment methods.
 
 Demonstrates polymorphism for processing different employee types.
 
-🌍 Real-World Applications
+***🌍 Real-World Applications***
 
 1️⃣7️⃣ CAD Shape Drawing System
 
@@ -292,9 +292,9 @@ Demonstrates polymorphism using a base "Media" class with derived "Audio", "Vide
 
 ---
 
-📂 Unit IV – Files and Streams
+**📂 Unit IV – Files and Streams**
 
-📚 Topics Covered
+***📚 Topics Covered***
 
 - 📝 Text File Handling
 - 📖 Reading and Writing Files
@@ -309,7 +309,7 @@ Demonstrates polymorphism using a base "Media" class with derived "Audio", "Vide
 - ⚠️ File Error Handling
 - 🗃️ Record Management
 
-💻 Concept-Based Programs
+***💻 Concept-Based Programs***
 
 1️⃣ Write Text to a File
 
@@ -375,7 +375,7 @@ Demonstrates storing, searching, and managing student records using files.
 
 Demonstrates managing library records using file handling.
 
-🌍 Real-World Applications
+***🌍 Real-World Applications***
 
 1️⃣7️⃣ Student Record File System
 
@@ -395,7 +395,7 @@ Demonstrates file-based management of library book records and related informati
 
 ---
 
-🧠 OOP Concepts Demonstrated
+**🧠 OOP Concepts Demonstrated**
 
 - 🧬 Inheritance – Reusing properties and behaviors of existing classes.
 - 🔐 Encapsulation – Binding data and functions together inside classes.
@@ -412,7 +412,7 @@ Demonstrates file-based management of library book records and related informati
 
 ---
 
-📂 File Handling Concepts Demonstrated
+**📂 File Handling Concepts Demonstrated**
 
 - 📄 Text File Handling
 - ✍️ File Writing
@@ -430,7 +430,7 @@ Demonstrates file-based management of library book records and related informati
 
 ---
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
 
 - 💻 Programming Language: C++
 - 🧠 Programming Paradigm: Object-Oriented Programming
@@ -440,7 +440,7 @@ Demonstrates file-based management of library book records and related informati
 
 ---
 
-🎯 Learning Objectives
+**🎯 Learning Objectives**
 
 After completing these programs, the learner will be able to:
 
@@ -458,7 +458,7 @@ After completing these programs, the learner will be able to:
 
 ---
 
-🌟 Conclusion
+**🌟 Conclusion**
 
 This repository provides a structured collection of C++ and Object-Oriented Programming programs covering Units I–IV.
 
@@ -468,7 +468,7 @@ The inclusion of real-world applications and mini-projects demonstrates how theo
 
 ---
 
-<div align="center">⭐ Repository Highlights
+***<div align="center">⭐ Repository Highlights***
 
 ✨ Unit-wise organization
 ✨ Concept-based C++ programs
