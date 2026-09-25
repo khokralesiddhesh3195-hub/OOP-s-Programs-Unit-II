@@ -1,10 +1,8 @@
-<div align="center">📘 Object-Oriented Programming with C++
-
-ADPC303
+<div align="center">***📘 Object-Oriented Programming with C++***
 
 S.Y. B.Tech. Artificial Intelligence and Data Science
 
----
+</div>---
 
 ### 👨‍🎓 **Student Information**
 
@@ -17,7 +15,7 @@ S.Y. B.Tech. Artificial Intelligence and Data Science
 <b>📖 Units:</b> I – IV<br>
 <b>💻 Programming Language:</b> C++
 
-</div>
+---
 
 📌 About the Repository
 
