@@ -1,0 +1,20 @@
+🔹 Program 15: Payment Processing System
+
+📌 Description
+
+This program demonstrates run-time polymorphism using a real-world payment system.
+
+"Payment" is an abstract base class containing a pure virtual function "pay()".
+
+Different payment methods such as Card, UPI and Net Banking provide their own implementation of "pay()".
+
+A common function "processPayment()" accepts a "Payment" reference and calls the appropriate payment method at run time.
+
+🎯 Concepts Used
+
+- 🔹 Abstract class
+- 🔹 Pure virtual function
+- 🔹 Inheritance
+- 🔹 Run-time polymorphism
+- 🔹 Base reference
+- 🔹 Virtual destructor
