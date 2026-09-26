@@ -1,0 +1,35 @@
+## Unit I Mini-Project: Smart Home Device Manager
+
+📌 Description
+
+A console-based smart home device management system that models IoT devices (lights, thermostats, cameras, door locks) to monitor status, location, and power states across a home dashboard.
+
+---
+
+📚 System Architecture
+
+1. **`SmartDevice` Class**
+   - Attributes: `deviceId` (`string`), `location` (`string`), `deviceType` (`string`), `isOn` (`bool`), `lastUpdated` (`string`).
+   - Static Counter: `static int activeDeviceCount` – Tracks connected active devices.
+   - Methods: `togglePower()`, `updateStatus()`, `displayDashboardRow()`.
+
+2. **Dashboard Manager**
+   - Maintains an array or `std::vector` of `SmartDevice` objects to control home automation state.
+
+---
+
+⚙️ Operations Supported
+
+1. Add new smart devices with location details.
+2. Toggle individual device power states (ON/OFF).
+3. Update environment parameters (e.g., thermostat temperature setting).
+4. Display home dashboard summary with active device counts.
+
+---
+
+🧠 Key OOP Principles Applied
+
+- Encapsulation & Access Control
+- Object Lifecycle & Initialization Lists
+- Static Class Data Members
+- Inline Getters for Dashboard Rendering
