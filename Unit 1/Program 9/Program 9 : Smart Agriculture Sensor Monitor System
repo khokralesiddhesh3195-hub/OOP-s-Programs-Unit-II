@@ -1,0 +1,42 @@
+# Smart Agriculture Sensor Monitor System 
+
+📌 Description
+
+This C++ application models soil moisture sensors on a smart farm, tracking each sensor's unique ID, current moisture level, and reading timestamp using object-oriented principles.
+
+---
+
+📚 Classes & Data Structures Used
+
+1. **`SoilSensor` Class**
+   - `sensorId` (`string`) – Stores the unique sensor identifier.
+   - `moistureLevel` (`double`) – Tracks soil moisture percentage.
+   - `timestamp` (`string`) – Stores the timestamp of the last reading.
+   - `readSensor()` – Member function to update moisture level and timestamp.
+   - `displayData()` – Member function to print current sensor state.
+
+2. **`std::vector<SoilSensor>`**
+   - Manages a dynamic array of `SoilSensor` objects representing farm devices.
+
+---
+
+⚙️ Main Function
+
+In the `main()` function:
+1. Instantiates a vector of `SoilSensor` objects with initial farm readings.
+2. Displays morning readings by iterating through the vector with a range-based loop.
+3. Updates the moisture level and timestamp for the first sensor.
+4. Prints the updated sensor information to the console.
+
+---
+
+🖥️ Output
+
+```text
+== Morning Sensor Readings ==
+Sensor: S001 | Moisture: 45.2% | Time: 08:00
+Sensor: S002 | Moisture: 52.8% | Time: 08:00
+Sensor: S003 | Moisture: 38.5% | Time: 08:00
+
+== Updated Reading ==
+Sensor: S001 | Moisture: 47.5% | Time: 09:00
