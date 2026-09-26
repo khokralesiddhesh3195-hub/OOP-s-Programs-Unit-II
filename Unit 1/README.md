@@ -6,16 +6,16 @@ Object-Oriented Programming with C++
 
 ---
 
-👨‍🎓 Student Information
+## 👨‍🎓 <b>Student Information</b>
 
-👤 Student Name: Siddhesh Goraksh Khokrale
-🆔 ZPRN: 125UAD1094
-🏫 Class / Division: S.Y. B-Tech (Div: B)
-📚 Course Name: Object-Oriented Programming with C++
-🔢 Course Code: ADPC303
-🎓 Programme: S.Y. B.Tech. Artificial Intelligence and Data Science
-📖 Unit: I – Fundamentals of Object-Oriented Programming
-💻 Programming Language: C++
+<b>👤 Student Name:</b> Siddhesh Goraksh Khokrale<br>
+<b>🆔 ZPRN:</b> 125UAD1094<br>
+<b>🏫 Class / Division:</b> S.Y. B-Tech (Div: B)<br>
+<b>📚 Course Name:</b> Object-Oriented Programming with C++<br>
+<b>🔢 Course Code:</b> ADPC303<br>
+<b>🎓 Programme:</b> S.Y. B.Tech. Artificial Intelligence and Data Science<br>
+<b>📖 Unit:</b> I – Fundamentals of Object-Oriented Programming<br>
+<b>💻 Programming Language:</b> C++
 
 ---
 
