@@ -1,0 +1,17 @@
+🔹 Program 12: Collection of Polymorphic Shape Pointers
+
+📌 Description
+
+This program demonstrates how multiple derived objects can be stored and processed through a common abstract base-class interface.
+
+"std::unique_ptr<Shape>" is used to safely store objects of different derived classes.
+
+The program uses "Rectangle" and "Circle" objects and calls their overridden functions through base-class pointers.
+
+🎯 Concept Used
+
+Polymorphic Processing, Abstract Classes, Virtual Functions and Smart Pointers
+
+💡 Key Point
+
+Different derived objects can be handled uniformly through a common base-class interface.
