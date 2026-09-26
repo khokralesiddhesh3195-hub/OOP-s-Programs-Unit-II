@@ -1,0 +1,23 @@
+🔹 Program 1: Function Overloading
+
+📌 Description
+
+Function Overloading is an example of compile-time polymorphism in C++.
+
+It allows multiple functions to have the same name but different parameter lists.
+
+In this program, the "add()" function is overloaded to perform addition with:
+
+- 🔢 Two integers
+- 🔢 Two double values
+- 🔢 Three integers
+
+The compiler determines which "add()" function should be called based on the number and data types of the arguments.
+
+🎯 Concept Used
+
+Compile-Time Polymorphism — Function Overloading
+
+💡 Key Point
+
+«Same function name + different parameters = Function Overloading»
