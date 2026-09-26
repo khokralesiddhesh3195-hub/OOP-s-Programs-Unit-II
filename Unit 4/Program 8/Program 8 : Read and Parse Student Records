@@ -1,0 +1,23 @@
+📖 Program 8 — Read and Parse Student Records
+
+📌 Description
+
+This program demonstrates how to read student records from a text file and separate individual fields such as roll number, name, and marks.
+
+It uses "stringstream" to parse each line according to the delimiter used when storing the records.
+
+🔑 Concepts Covered
+
+- 📖 Reading records from a file
+- 🧩 Parsing structured text
+- 🔢 Extracting individual fields
+- 🧵 Using "stringstream"
+- 🎓 Processing student data
+
+📁 File Used
+
+"students.txt"
+
+🧠 Main C++ Feature
+
+"std::stringstream"
