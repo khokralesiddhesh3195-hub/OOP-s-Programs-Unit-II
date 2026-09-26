@@ -1,0 +1,21 @@
+🔹 Program 11: Abstract Class and Pure Virtual Function
+
+📌 Description
+
+This program demonstrates an abstract class using a pure virtual function.
+
+The "Shape" class contains the pure virtual function:
+
+"virtual double area() const = 0;"
+
+Therefore, "Shape" becomes an abstract class and cannot be instantiated directly.
+
+The "Rectangle" class inherits from "Shape" and provides the implementation of "area()".
+
+🎯 Concept Used
+
+Abstract Class and Pure Virtual Function
+
+💡 Key Point
+
+A class containing at least one pure virtual function is an abstract class.
