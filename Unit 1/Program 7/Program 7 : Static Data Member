@@ -1,0 +1,51 @@
+# C++ OOP – Static Member
+
+📌 Description
+
+This C++ program demonstrates shared state representation using a `static` data member to track the total number of instantiated class objects.
+
+---
+
+📚 Classes Used
+
+1. **`Student` Class**
+   - **`static int count`** – Class variable shared across all object instances rather than allocated individually per object.
+   - **`Student()` Constructor:** Increments shared static counter (`count++`) whenever a new object is created.
+   - **`Student::count = 0`:** Global definition & initialization required outside class scope.
+
+---
+
+⚙️ Main Function
+
+In the `main()` function:
+
+1. Three objects (`s1`, `s2`, `s3`) are instantiated in sequence.
+2. Each instantiation invokes the constructor, incrementing `count`.
+3. `Student::count` is accessed directly via the class name and scope resolution operator (`::`).
+
+---
+
+🖥️ Output
+
+3
+
+---
+
+🧠 OOP Concept
+
+Shared Static Member Allocation
+
+  s1 Object      s2 Object      s3 Object
+   (Calls)        (Calls)        (Calls)
+      └──────────────┼──────────────┘
+                     ↓
+        Shared: Student::count = 3
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Static Data Members
+- Scope Resolution Operator (`::`)
+- Shared Class Memory Space
+- Class Instance Counting
