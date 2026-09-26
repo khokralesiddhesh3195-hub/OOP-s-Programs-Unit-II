@@ -1,0 +1,38 @@
+## Real-Time Application 2: Student Attendance Management System
+
+# Unit I – Student Attendance Management System
+
+📌 Description
+
+This application tracks academic attendance for students, maintaining records of total and attended classes to calculate attendance percentages automatically.
+
+---
+
+📚 Classes & Logic Used
+
+1. **`Student` Class**
+   - `rollNo` (`int`) – Stores student roll number.
+   - `name` (`string`) – Stores student name.
+   - `totalDays` (`int`) – Tracks total recorded class days.
+   - `presentDays` (`int`) – Tracks days attended.
+   - `markAttendance(bool)` – Increments class days and present count if present.
+   - `getAttendancePercentage()` – Computes percentage with zero-division defense.
+   - `display()` – Output routine for attendance summary.
+
+---
+
+⚙️ Main Function
+
+In the `main()` function:
+1. Instantiates `Student` objects `s1` and `s2`.
+2. Marks attendance records across multiple days using boolean flags.
+3. Displays an attendance summary report showing computed percentages.
+
+---
+
+🖥️ Output
+
+```text
+== Attendance Report ==
+Roll: 101 | Name: Rahul | Attendance: 66.6667%
+Roll: 102 | Name: Priya | Attendance: 100%
