@@ -1,0 +1,21 @@
+✅ Program 19-Real-Time Application 3: Input Validation Service
+
+📌 Description
+
+A business application often needs to validate different types of user data such as marks, payment amounts, and names.
+
+This program uses a common "validate()" function name with different parameter types.
+
+The compiler selects the appropriate overloaded function depending on the argument passed.
+
+🎯 OOP Concepts Used
+
+- 🔹 Function overloading
+- 🔹 Compile-time polymorphism
+- 🔹 String processing
+- 🔹 Input validation
+- 🔹 Encapsulation
+
+💡 Key Point
+
+Different types of data can be validated using the same "validate()" interface through function overloading.
