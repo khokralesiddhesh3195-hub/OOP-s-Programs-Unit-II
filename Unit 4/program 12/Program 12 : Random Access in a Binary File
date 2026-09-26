@@ -1,0 +1,24 @@
+🎯 Program 12 — Random Access in a Binary File
+
+📌 Description
+
+This program demonstrates how to directly access a selected record in a binary file without reading every previous record.
+
+The program calculates the byte offset of a fixed-size record and uses "seekg()" to move directly to that position.
+
+🔑 Concepts Covered
+
+- 🎯 Random access
+- 💾 Binary files
+- 📦 Fixed-size records
+- 📍 File offsets
+- "seekg()"
+- "read()"
+
+📁 File Created
+
+"records.dat"
+
+🧠 Main Concept
+
+Directly locate and read a selected binary record
