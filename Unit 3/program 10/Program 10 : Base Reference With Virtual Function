@@ -1,0 +1,17 @@
+🔹 Program 10: Base Reference With a Virtual Function
+
+📌 Description
+
+This program demonstrates run-time polymorphism using a base-class reference.
+
+A "Shape" reference can refer to different derived objects such as "Rectangle" and "Circle".
+
+Because "area()" is virtual, the correct derived implementation is called at run time.
+
+🎯 Concept Used
+
+Run-Time Polymorphism — Base Reference
+
+💡 Key Point
+
+Passing an object using "const Base&" preserves the actual derived object and enables virtual function dispatch.
