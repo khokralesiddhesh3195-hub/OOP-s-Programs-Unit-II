@@ -1,0 +1,23 @@
+🎓 Program 7 — Store Student Records in a Text File
+
+📌 Description
+
+This program demonstrates how to store student information permanently in a text file.
+
+Student details such as roll number, name, and marks are written using a simple delimiter-based format. The program uses append mode so that new records can be added without removing existing records.
+
+🔑 Concepts Covered
+
+- 🎓 Student record management
+- 💾 Persistent data storage
+- ➕ Appending records
+- 📝 Delimiter-based file format
+- 📂 Text-file handling
+
+📁 File Created
+
+"students.txt"
+
+🧠 Main C++ Features
+
+"ofstream", "std::ios::app", and delimiter-based records
