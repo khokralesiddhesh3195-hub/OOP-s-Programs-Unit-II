@@ -1,0 +1,15 @@
+🔹 Program 9: Base Pointer With a Virtual Function
+
+📌 Description
+
+This program demonstrates run-time polymorphism using a virtual function and a base-class pointer.
+
+The base pointer can point to different derived objects. Because "sound()" is declared "virtual", the appropriate derived-class implementation is selected during program execution.
+
+🎯 Concept Used
+
+Run-Time Polymorphism — Virtual Function
+
+💡 Key Point
+
+A base pointer can refer to different derived objects, and a virtual function enables dynamic binding.
