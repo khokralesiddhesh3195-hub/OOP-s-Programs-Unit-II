@@ -1,0 +1,55 @@
+# C++ Basics – Basic Data Types
+
+📌 Description
+
+This C++ program demonstrates the declaration, initialization, and output of fundamental primitive data types (`int`, `char`, and `float`) to store student information.
+
+---
+
+📚 Variables & Logic Used
+
+1. **Variables**
+   - `roll` (`int`) – Stores the student's roll number as a whole number.
+   - `grade` (`char`) – Stores a single character representing the student's grade.
+   - `fee` (`float`) – Stores floating-point decimal values representing the fee amount.
+
+2. **Output Stream**
+   - Uses `cout` along with `endl` to display values line-by-line on standard output.
+
+---
+
+⚙️ Main Function
+
+In the `main()` function:
+
+1. Variables `roll`, `grade`, and `fee` are declared and initialized with values `101`, `'A'`, and `12500.50`.
+2. `cout` statements print each variable with a clear label.
+3. The program terminates with `return 0`.
+
+---
+
+🖥️ Output
+
+Roll No: 101
+Grade: A
+Fee: 12500.5
+
+---
+
+🧠 C++ Concept
+
+Fundamental Primitive Data Types & Standard I/O
+
+[ int: 101 ]   [ char: 'A' ]   [ float: 12500.50 ]
+                     |
+                     ↓
+             std::cout Stream
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Basic Data Types (`int`, `char`, `float`)
+- Variable Declaration and Initialization
+- Standard I/O Operations (`cout`)
+- Line Formatting (`endl`)
