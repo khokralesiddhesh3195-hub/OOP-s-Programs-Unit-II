@@ -21,53 +21,53 @@ Object-Oriented Programming with C++
 
 📖 About the Repository
 
-This repository contains C++ programs based on Unit I: Fundamentals of Object-Oriented Programming of the Object-Oriented Programming with C++ course.
+This repository contains C++ programs based on Unit I – Fundamentals of Object-Oriented Programming of the Object-Oriented Programming with C++ course.
 
 The programs introduce the fundamental building blocks of C++ and Object-Oriented Programming, including:
 
-🔢 Basic and Derived Data Types
-🔤 Constants, Tokens, Keywords and Identifiers
-📦 Variables and Data Handling
-🏛️ Classes and Objects
-🏗️ Structures and Classes
-🔀 Control Structures
-🔢 Arrays and Strings
-⚙️ Functions and Function Prototypes
-🛠️ Utility Functions
-🏗️ Constructors and Destructors
-🔢 Static Data Members
-⚡ Static Member Functions
-🚀 Inline Functions
-🤝 Friend Functions
+- 🔢 Basic and Derived Data Types
+- 🔤 Constants, Tokens, Keywords and Identifiers
+- 📦 Variables and Data Handling
+- 🏛️ Classes and Objects
+- 🏗️ Structures and Classes
+- 🔀 Control Structures
+- 🔢 Arrays and Strings
+- ⚙️ Functions and Function Prototypes
+- 🛠️ Utility Functions
+- 🏗️ Constructors and Destructors
+- 🔢 Static Data Members
+- ⚡ Static Member Functions
+- 🚀 Inline Functions
+- 🤝 Friend Functions
 
 The repository also includes real-time application examples related to:
 
-🌱 Smart Agriculture
-🎓 Student Attendance Management
-🛒 E-Commerce Product Catalog
-🏠 Smart Home Automation
+- 🌱 Smart Agriculture
+- 🎓 Student Attendance Management
+- 🛒 E-Commerce Product Catalog
+- 🏠 Smart Home Automation
 
 ---
 
 📚 Unit I – Topics Covered
 
-🔹 Procedural Programming vs Object-Oriented Programming
-🔹 Basic and Derived Data Types
-🔹 Constants, Tokens, Keywords and Identifiers
-🔹 Variables
-🔹 Objects and Classes
-🔹 Structures vs Classes
-🔹 Control Structures
-🔹 Arrays
-🔹 Strings
-🔹 Functions
-🔹 Function Prototypes
-🔹 Utility Functions
-🔹 Constructors and Destructors
-🔹 Static Data Members
-🔹 Static Member Functions
-🔹 Inline Functions
-🔹 Friend Functions
+- 🔹 Procedural Programming vs Object-Oriented Programming
+- 🔹 Basic and Derived Data Types
+- 🔹 Constants, Tokens, Keywords and Identifiers
+- 🔹 Variables
+- 🔹 Objects and Classes
+- 🔹 Structures vs Classes
+- 🔹 Control Structures
+- 🔹 Arrays
+- 🔹 Strings
+- 🔹 Functions
+- 🔹 Function Prototypes
+- 🔹 Utility Functions
+- 🔹 Constructors and Destructors
+- 🔹 Static Data Members
+- 🔹 Static Member Functions
+- 🔹 Inline Functions
+- 🔹 Friend Functions
 
 ---
 
@@ -88,7 +88,7 @@ The program uses:
 - "float" for fee amount
 - "cout" for displaying values
 
-Scenario: Store student roll number, grade, and fee amount.
+📍 Scenario: Store student roll number, grade, and fee amount.
 
 ---
 
@@ -100,7 +100,7 @@ Demonstrates the use of an "if-else" statement to make a decision based on stude
 
 The program checks whether a student has passed or failed according to the given condition.
 
-Scenario: Check whether a student has passed or failed.
+📍 Scenario: Check whether a student has passed or failed.
 
 ---
 
@@ -112,7 +112,7 @@ Demonstrates how an array can store multiple values and how a "for" loop can be 
 
 The program stores the marks of five students and displays them using a loop.
 
-Scenario: Print marks of five students.
+📍 Scenario: Print marks of five students.
 
 ---
 
@@ -129,7 +129,7 @@ The program includes:
 - Function definition
 - Return value
 
-Scenario: Create an addition function for reuse.
+📍 Scenario: Create an addition function for reuse.
 
 ---
 
@@ -145,7 +145,7 @@ The program uses a "Student" class containing:
 - Student age
 - Member function to display details
 
-Scenario: Store student details using class and object.
+📍 Scenario: Store student details using class and object.
 
 ---
 
@@ -155,20 +155,15 @@ Scenario: Store student details using class and object.
 
 Demonstrates the use of constructors and destructors in C++.
 
-The constructor is used for automatic object initialization, while the destructor is used during object cleanup.
+🏗️ Constructor: Initializes an object.
 
-🏗️ Constructor: Initializes an object
-🗑️ Destructor: Performs cleanup when an object is destroyed
+🗑️ Destructor: Performs cleanup when an object is destroyed.
 
-Scenario: Show automatic object initialization and cleanup.
+📍 Scenario: Show automatic object initialization and cleanup.
 
 ---
 
 🌐 B. Unit I – Real-Time Applications
-
-The following applications are based on the Unit I – Fundamentals of Object-Oriented Programming section of the Unit-Wise Real-Time Applications and Live Examples material.
-
----
 
 7️⃣ Smart Agriculture Sensor Monitor
 
@@ -188,8 +183,6 @@ The system can:
 - Display sensor readings
 - Update sensor readings
 - Display the latest sensor status
-
-The application demonstrates how a C++ class can model a real physical entity and how each object maintains its own state.
 
 ---
 
@@ -215,8 +208,6 @@ It demonstrates:
 - Attendance calculation
 - Conditional logic
 - Member functions
-
-The source material also suggests extending the system with minimum-attendance eligibility, file storage, vectors of students, and a defaulter report.
 
 ---
 
@@ -346,7 +337,7 @@ Used to represent and manipulate textual data.
 💻 Language: C++
 🧑‍💻 Programming Paradigm: Object-Oriented Programming
 📚 Topic: Unit I – Fundamentals of Object-Oriented Programming
-🔧 Compiler: Any standard C++ compiler
+🔧 Compiler: Any Standard C++ Compiler
 📦 Repository: GitHub
 
 ---
@@ -355,23 +346,23 @@ Used to represent and manipulate textual data.
 
 By completing these programs, the following concepts can be understood and practiced:
 
-✅ Understand the fundamentals of C++ programming
-✅ Understand procedural and object-oriented programming approaches
-✅ Use basic and derived data types
-✅ Understand constants, tokens, keywords and identifiers
-✅ Work with variables and expressions
-✅ Understand classes and objects
-✅ Understand structures and classes
-✅ Implement conditional statements and loops
-✅ Work with arrays and strings
-✅ Create and use functions
-✅ Understand function prototypes
-✅ Implement constructors and destructors
-✅ Understand static data members and static member functions
-✅ Implement inline functions
-✅ Understand friend functions
-✅ Apply encapsulation and abstraction
-✅ Develop basic real-world applications using OOP concepts
+- ✅ Understand the fundamentals of C++ programming
+- ✅ Understand procedural and object-oriented programming approaches
+- ✅ Use basic and derived data types
+- ✅ Understand constants, tokens, keywords and identifiers
+- ✅ Work with variables and expressions
+- ✅ Understand classes and objects
+- ✅ Understand structures and classes
+- ✅ Implement conditional statements and loops
+- ✅ Work with arrays and strings
+- ✅ Create and use functions
+- ✅ Understand function prototypes
+- ✅ Implement constructors and destructors
+- ✅ Understand static data members and static member functions
+- ✅ Implement inline functions
+- ✅ Understand friend functions
+- ✅ Apply encapsulation and abstraction
+- ✅ Develop basic real-world applications using OOP concepts
 
 ---
 
