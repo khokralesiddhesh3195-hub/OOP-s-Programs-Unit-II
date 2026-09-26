@@ -1,0 +1,26 @@
+🎓 Program 15 — File-Based Student Record Manager
+
+📌 Description
+
+This program demonstrates a file-based student record management system using text files.
+
+It provides operations for adding, displaying, searching, and updating student records. The program combines file streams, string parsing, temporary-file replacement, and menu-driven programming.
+
+🔑 Concepts Covered
+
+- ➕ Add student records
+- 📋 Display records
+- 🔍 Search records
+- ✏️ Update records
+- 💾 Persistent text-file storage
+- 🧩 Record parsing
+- 🔄 Temporary-file update technique
+- 🖥️ Menu-driven application
+
+📁 Main File
+
+"student_records.txt"
+
+🧠 Main Concept
+
+CRUD-style student record management using file handling
