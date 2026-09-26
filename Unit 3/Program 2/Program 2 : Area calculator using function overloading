@@ -1,0 +1,21 @@
+🔹 Program 2: Area Calculator Using Function Overloading
+
+📌 Description
+
+This program demonstrates function overloading by calculating the area of different shapes using the same function name "calculateArea()".
+
+The function is overloaded with different parameters:
+
+- 🟦 Square — accepts one integer parameter ("side")
+- ▭ Rectangle — accepts two integer parameters ("length", "width")
+- 🔵 Circle — accepts one double parameter ("radius")
+
+The compiler selects the appropriate "calculateArea()" function based on the number and data type of the arguments.
+
+🎯 Concept Used
+
+Compile-Time Polymorphism — Function Overloading
+
+💡 Key Point
+
+«The same function name can perform different operations when its parameter list is different.»
