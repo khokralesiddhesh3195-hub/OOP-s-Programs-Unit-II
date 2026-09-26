@@ -1,12 +1,12 @@
 📘 Object-Oriented Programming with C++ – Unit I
 
-🎓 Unit I – Fundamentals of Object-Oriented Programming
+**🎓 Unit I – Fundamentals of Object-Oriented Programming**
 
 Object-Oriented Programming with C++
 
 ---
 
-## 👨‍🎓 <b>Student Information</b>
+**👨‍🎓 <b>Student Information</b>**
 
 <b>👤 Student Name:</b> Siddhesh Goraksh Khokrale<br>
 <b>🆔 ZPRN:</b> 125UAD1094<br>
@@ -19,7 +19,7 @@ Object-Oriented Programming with C++
 
 ---
 
-📖 About the Repository
+***📖 About the Repository***
 
 This repository contains C++ programs based on Unit I – Fundamentals of Object-Oriented Programming of the Object-Oriented Programming with C++ course.
 
@@ -49,7 +49,7 @@ The repository also includes real-time application examples related to:
 
 ---
 
-📚 Unit I – Topics Covered
+***📚 Unit I – Topics Covered***
 
 - 🔹 Procedural Programming vs Object-Oriented Programming
 - 🔹 Basic and Derived Data Types
@@ -71,7 +71,7 @@ The repository also includes real-time application examples related to:
 
 ---
 
-💻 List of Programs
+***💻 List of Programs***
 
 🔹 A. OOP Fundamentals Practical Programs
 
@@ -268,7 +268,7 @@ This mini-project combines the fundamental OOP concepts introduced in Unit I and
 
 ---
 
-🧠 OOP Concepts Demonstrated
+***🧠 OOP Concepts Demonstrated***
 
 🏛️ Class
 
@@ -332,7 +332,7 @@ Used to represent and manipulate textual data.
 
 ---
 
-🛠️ Technologies Used
+***🛠️ Technologies Used***
 
 💻 Language: C++
 🧑‍💻 Programming Paradigm: Object-Oriented Programming
@@ -342,7 +342,7 @@ Used to represent and manipulate textual data.
 
 ---
 
-🎯 Learning Objectives
+***🎯 Learning Objectives***
 
 By completing these programs, the following concepts can be understood and practiced:
 
@@ -366,7 +366,7 @@ By completing these programs, the following concepts can be understood and pract
 
 ---
 
-📌 Conclusion
+***📌 Conclusion***
 
 This repository provides a practical implementation of Unit I – Fundamentals of Object-Oriented Programming in C++.
 
@@ -378,7 +378,7 @@ Overall, the repository provides hands-on practice with the fundamental concepts
 
 ---
 
-⭐ Thank You for Visiting! ⭐
+***⭐ Thank You for Visiting! ⭐***
 
 Object-Oriented Programming with C++ | Unit I – Fundamentals of Object-Oriented Programming
 
