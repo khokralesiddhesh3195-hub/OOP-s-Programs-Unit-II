@@ -1,0 +1,51 @@
+# C++ Modularization – Functions
+
+📌 Description
+
+This C++ program demonstrates modular code structure using function prototype declaration, function definition, parameter passing, and return statements to perform integer addition.
+
+---
+
+📚 Functions Used
+
+1. **`add(int, int)` Function**
+   - Prototype informs compiler prior to `main()`.
+   - Accepts two integer parameters (`x` and `y`).
+   - Performs addition (`x + y`) and returns the sum back to the caller.
+
+---
+
+⚙️ Main Function
+
+In the `main()` function:
+
+1. Variables `a = 10` and `b = 20` are declared.
+2. Function `add(a, b)` is called with arguments `a` and `b`.
+3. Output returned by `add()` is displayed inside the `cout` expression.
+
+---
+
+🖥️ Output
+
+Sum = 30
+
+---
+
+🧠 C++ Concept
+
+Modular Function Design
+
+main()  --->  add(a, b)
+          |     ↓
+          |   [ x + y ]
+          |     ↓
+main()  <---  return sum
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Function Prototypes
+- Parameter Passing by Value
+- Return Statements
+- Modular Programming
