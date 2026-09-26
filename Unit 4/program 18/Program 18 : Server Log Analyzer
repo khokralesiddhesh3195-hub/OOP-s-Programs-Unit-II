@@ -1,0 +1,24 @@
+Real world application 2: 🖥️ Server Log Analyzer
+
+📌 Brief Description
+
+The Server Log Analyzer is a C++ program that reads a server log file and identifies important ERROR and CRITICAL messages.
+
+The program processes the log line by line, searches for error-related keywords, stores matching entries, and displays a report of critical events.
+
+🔑 Key Concepts
+
+- 📂 File reading
+- 📝 Line-by-line processing
+- 🔎 String searching using "find()"
+- 📦 "vector" for storing log entries
+- 🛡️ Defensive error handling
+- 📊 Critical-event reporting
+
+🌍 Real-World Application
+
+This concept is useful in DevOps monitoring, server administration, application debugging, system monitoring, and failure analysis.
+
+🎯 Main Purpose
+
+To demonstrate how log files can be automatically analyzed to identify errors and critical system events quickly.
