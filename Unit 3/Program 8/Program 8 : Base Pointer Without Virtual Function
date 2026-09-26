@@ -1,0 +1,15 @@
+🔹 Program 8: Base Pointer Without a Virtual Function
+
+📌 Description
+
+This program demonstrates static binding using a base-class pointer.
+
+The "display()" function is not declared "virtual". Therefore, when a base pointer points to a derived object, the base-class version of the function is called.
+
+🎯 Concept Used
+
+Static Binding
+
+💡 Key Point
+
+If a base-class function is not "virtual", the function call through a base pointer is resolved using the static type of the pointer.
