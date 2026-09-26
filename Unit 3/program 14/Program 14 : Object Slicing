@@ -1,0 +1,17 @@
+🔹 Program 14: Object Slicing Demonstration
+
+📌 Description
+
+This program demonstrates object slicing.
+
+When a derived object is passed by value to a function expecting a base object, only the base-class portion is copied.
+
+When the same object is passed by reference, the complete derived object is preserved and virtual function dispatch works correctly.
+
+🎯 Concept Used
+
+Object Slicing and Polymorphism Using References
+
+💡 Key Point
+
+Passing a polymorphic object by "Base" value can cause object slicing. Using a reference or pointer preserves the derived object.
