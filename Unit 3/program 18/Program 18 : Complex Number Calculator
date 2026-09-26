@@ -1,0 +1,24 @@
+🔢 Program 18-Real-Time Application 2: Complex Number Calculator
+
+📌 Description
+
+A Complex Number Calculator is useful in engineering, signal processing, and simulation applications.
+
+The "Complex" class overloads arithmetic operators such as "+", "-", and "*" so that complex numbers can be manipulated using natural mathematical expressions.
+
+For example:
+
+c1 + c2
+c1 - c2
+c1 * c2
+
+🎯 OOP Concepts Used
+
+- 🔹 Binary operator overloading
+- 🔹 Constructor with default arguments
+- 🔹 Constant member functions
+- 🔹 Encapsulation
+
+💡 Key Point
+
+Operator overloading allows user-defined objects to be used with familiar mathematical operators.
