@@ -1,0 +1,26 @@
+⚠️ Program 13 — File Error Handling and Stream States
+
+📌 Description
+
+This program demonstrates how to detect and handle file and stream errors using C++ stream-state functions.
+
+It checks whether a file can be opened and demonstrates the use of functions such as "eof()", "fail()", and "bad()" to determine the state of a stream.
+
+🔑 Concepts Covered
+
+- ⚠️ File-opening errors
+- 🛡️ Stream-state checking
+- "is_open()"
+- "good()"
+- "eof()"
+- "fail()"
+- "bad()"
+- 🚨 Error reporting
+
+📁 File Used
+
+"missing_file.txt"
+
+🧠 Main Concept
+
+Reliable file-operation error handling
