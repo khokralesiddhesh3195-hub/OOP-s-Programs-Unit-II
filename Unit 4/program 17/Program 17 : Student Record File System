@@ -1,0 +1,24 @@
+Real world applications 1: 🎓 Student Record File System
+
+📌 Brief Description
+
+The Student Record File System is a C++ program that stores student information such as roll number, name, and marks in a CSV-like text file.
+
+The program demonstrates how to write student records into a file, read the records back, parse the stored data, and display a student report.
+
+🔑 Key Concepts
+
+- 📄 Text-file handling
+- ✍️ "ofstream" for writing
+- 📖 "ifstream" for reading
+- 🔍 "getline()" for parsing
+- 🛡️ File-open validation
+- 🏫 Class-based record management
+
+🌍 Real-World Application
+
+This concept can be used in college management systems, examination systems, student databases, and academic record management.
+
+🎯 Main Purpose
+
+To demonstrate how student data can be stored permanently in a file and retrieved whenever required.
