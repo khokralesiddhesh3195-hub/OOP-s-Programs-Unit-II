@@ -1,0 +1,23 @@
+🎨 Program 17 -Real-Time Application : CAD Shape Drawing System
+
+📌 Description
+
+A Computer-Aided Design (CAD) application needs to handle different shapes such as circles, rectangles, and triangles.
+
+Each shape has its own implementation of "draw()" and "area()". A common abstract base class called "Shape" provides the interface.
+
+The program stores different shapes using base-class pointers and uses run-time polymorphism to call the appropriate functions.
+
+🎯 OOP Concepts Used
+
+- 🔹 Abstract class
+- 🔹 Pure virtual functions
+- 🔹 Inheritance
+- 🔹 Run-time polymorphism
+- 🔹 Function overriding
+- 🔹 "std::unique_ptr"
+- 🔹 Base-class pointers
+
+💡 Key Point
+
+Different shapes can be handled through the same "Shape" interface while each shape provides its own implementation of "draw()" and "area()".
