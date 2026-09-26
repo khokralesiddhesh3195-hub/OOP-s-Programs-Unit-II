@@ -1,0 +1,23 @@
+🔍 Program 6 — Search for a Word in a File
+
+📌 Description
+
+This program demonstrates how to search for a specific word inside a text file and count how many times the word occurs.
+
+The program reads whitespace-separated words from the file and compares them with the target word.
+
+🔑 Concepts Covered
+
+- 🔎 Searching file contents
+- 📖 Reading words using "ifstream"
+- 🔢 Counting word occurrences
+- 🧵 String comparison
+- 📂 Text-file processing
+
+📁 File Used
+
+"message.txt"
+
+🧠 Main C++ Feature
+
+Stream extraction using "operator >>"
