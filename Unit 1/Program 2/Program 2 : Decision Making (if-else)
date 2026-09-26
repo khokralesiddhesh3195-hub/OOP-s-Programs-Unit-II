@@ -1,0 +1,53 @@
+# C++ Decision Making – If-Else
+
+📌 Description
+
+This C++ program demonstrates conditional execution using an `if-else` statement to evaluate whether a student has passed or failed based on their marks.
+
+---
+
+📚 Decision Structure Used
+
+1. **Condition Evaluation**
+   - Checks if the variable `marks` is greater than or equal to `40`.
+
+2. **Execution Paths**
+   - **`if` Block:** Executes if `marks >= 40` evaluates to `true` (Prints `"Pass"`).
+   - **`else` Block:** Executes if `marks >= 40` evaluates to `false` (Prints `"Fail"`).
+
+---
+
+⚙️ Main Function
+
+In the `main()` function:
+
+1. An integer variable `marks` is initialized with `45`.
+2. The `if` condition evaluates `45 >= 40` as true.
+3. `"Pass"` is printed to standard output.
+
+---
+
+🖥️ Output
+
+Pass
+
+---
+
+🧠 C++ Concept
+
+Selection & Conditional Control Flow
+
+         [ marks >= 40 ]
+            /       \
+     (True)/         \(False)
+          ↓           ↓
+     Print "Pass"  Print "Fail"
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Decision Making Structures (`if-else`)
+- Relational Operators (`>=`)
+- Boolean Logic Statements
+- Program Flow Control
