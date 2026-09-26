@@ -1,0 +1,50 @@
+# C++ Lifecycle – Constructor and Destructor
+
+📌 Description
+
+This C++ program demonstrates automatic object lifecycle management through class constructors and destructors, showcasing when they are called during execution.
+
+---
+
+📚 Classes Used
+
+1. **`Demo` Class**
+   - **`Demo()` (Constructor):** Runs automatically upon object instantiation and prints `"Constructor called"`.
+   - **`~Demo()` (Destructor):** Runs automatically when object scope ends and prints `"Destructor called"`.
+
+---
+
+⚙️ Main Function
+
+In the `main()` function:
+
+1. Object `d` of class `Demo` is instantiated.
+2. The constructor triggers immediately upon creation.
+3. When `main()` returns, object `d` goes out of scope, triggering the destructor.
+
+---
+
+🖥️ Output
+
+Constructor calledDestructor called
+
+---
+
+🧠 OOP Concept
+
+Object Lifecycle (Creation to Destruction)
+
+Object Declared  --->  Constructor Execution  Demo()
+                              │
+                      Program Execution
+                              ↓
+Object Destroyed --->  Destructor Execution   ~Demo()
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Object Lifecycle Management
+- Constructor Declarations (`ClassName()`)
+- Destructor Declarations (`~ClassName()`)
+- Automatic Initialization & Resource Cleanup
