@@ -1,0 +1,37 @@
+Mini Project : 📚 Library Book Management System
+
+📌 Brief Description
+
+The Library Book Management System is a file-based C++ application for managing library book records.
+
+The system stores important book information such as ISBN, title, author, category, and availability in a text file.
+
+It can provide operations for adding, searching, issuing, returning, updating books, and generating an availability report.
+
+🔑 Key Concepts
+
+- 📄 Text-file handling
+- 💾 Persistent data storage
+- ➕ Adding book records
+- 🔍 Searching book records
+- 📤 Issuing books
+- 📥 Returning books
+- ✏️ Updating records
+- 📊 Generating availability reports
+
+🌍 Real-World Application
+
+This project can be used as the foundation of a school, college, or public library management system where book information must be stored and retrieved persistently.
+
+🎯 Main Purpose
+
+To combine C++ file-handling concepts into a practical application that manages library records efficiently.
+
+🚀 Main Features
+
+- ➕ Add a new book
+- 🔎 Search for a book
+- 📤 Issue a book
+- 📥 Return a book
+- ✏️ Update book details
+- 📊 Generate an availability report
