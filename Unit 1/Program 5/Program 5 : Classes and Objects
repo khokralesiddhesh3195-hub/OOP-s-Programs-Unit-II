@@ -1,0 +1,53 @@
+# C++ OOP – Class and Object
+
+📌 Description
+
+This C++ program demonstrates essential Object-Oriented Programming (OOP) concepts by encapsulating student attributes inside a `Student` class and instantiating an object to access its contents.
+
+---
+
+📚 Classes Used
+
+1. **`Student` Class**
+   - **`name`** – `string` variable to hold student name.
+   - **`age`** – `int` variable to hold student age.
+   - **`show()`** – Member function to print `name` and `age`.
+   - **`public` Access Specifier:** Exposes class members for external access.
+
+---
+
+⚙️ Main Function
+
+In the `main()` function:
+
+1. An object `s1` of class `Student` is created.
+2. Member variables are populated using dot operator (`s1.name = "Amit"`, `s1.age = 20`).
+3. Member function `s1.show()` is called to print stored data.
+
+---
+
+🖥️ Output
+
+Amit 20
+
+---
+
+🧠 OOP Concept
+
+Class Blueprint & Instance Object
+
+Class Blueprint: Student (name, age, show())
+                       │
+             Object Instantiation
+                       ↓
+         Object (s1): [ name="Amit", age=20 ]
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Classes and Objects
+- Encapsulation
+- Public Access Specifiers
+- Dot (`.`) Operator Access
+- Member Functions
