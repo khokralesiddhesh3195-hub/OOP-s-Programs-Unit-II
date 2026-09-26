@@ -1,0 +1,30 @@
+🔹 Program 16: Employee Payroll Mini-Project
+
+📌 Description
+
+This program demonstrates run-time polymorphism in an employee payroll system.
+
+"Employee" is an abstract base class containing the pure virtual function "calculateSalary()".
+
+Two derived classes are created:
+
+- 👨‍💼 "PermanentEmployee"
+- 👨‍💻 "ContractEmployee"
+
+Each class calculates salary differently.
+
+The "printPaySlip()" function accepts an "Employee" reference and calls the appropriate "calculateSalary()" implementation at run time.
+
+🎯 Concepts Used
+
+- 🔹 Abstract class
+- 🔹 Pure virtual function
+- 🔹 Inheritance
+- 🔹 Run-time polymorphism
+- 🔹 Function overriding
+- 🔹 Base-class reference
+- 🔹 Virtual destructor
+
+💡 Key Point
+
+Different employee types can be processed through the same "Employee" interface while providing their own salary calculation.
