@@ -1,0 +1,58 @@
+# C++ OOP – Inline and Friend Functions
+
+📌 Description
+
+This C++ program demonstrates execution optimization using an `inline` getter method and bypassing `private` member restrictions using a global `friend` function.
+
+---
+
+📚 Classes & Functions Used
+
+1. **`Test` Class**
+   - **`value`** – Private integer variable.
+   - **`inline getValue()`** – Inline member function returning `value` without execution overhead.
+   - **`friend void show(Test t)`** – Friend function declaration granting access to private attributes.
+
+2. **`show(Test t)` Global Function**
+   - Reads private attribute `t.value` directly because it has been granted `friend` privileges inside `Test` class.
+
+---
+
+⚙️ Main Function
+
+In the `main()` function:
+
+1. Object `obj` is instantiated with `value = 50` via parameterized constructor.
+2. `obj.getValue()` is executed via inline member function call.
+3. `show(obj)` global function is called to access and print private data directly.
+
+---
+
+🖥️ Output
+
+5050
+
+---
+
+🧠 OOP Concept
+
+Encapsulation Rules & Friend Access
+
+      Global Function show()
+                 │
+  (Allowed via friend keyword)
+                 ↓
+      Test Class [ private: value ]
+                 ↑
+   (Allowed via inline getter)
+                 │
+      obj.getValue() Execution
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- Private Encapsulation
+- Inline Functions (`inline`)
+- Friend Functions (`friend`)
+- Encapsulation Access Exceptions
