@@ -1,0 +1,19 @@
+🔹 Program 6: Relational Operator Overloading
+
+📌 Description
+
+This program demonstrates relational operator overloading by overloading the ">" operator for a "Distance" class.
+
+Two "Distance" objects are compared using:
+
+"first > second"
+
+The overloaded operator compares their stored meter values.
+
+🎯 Concept Used
+
+Relational Operator Overloading
+
+💡 Key Point
+
+Operators such as ">", "<", "==", and "!=" can be overloaded for user-defined classes.
