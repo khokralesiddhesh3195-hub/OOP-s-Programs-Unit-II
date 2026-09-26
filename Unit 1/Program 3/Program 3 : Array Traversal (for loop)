@@ -1,0 +1,51 @@
+# C++ Arrays & Loops – Iteration
+
+📌 Description
+
+This C++ program demonstrates array declaration, initialization, and continuous sequence traversal using a `for` loop to display marks of five students.
+
+---
+
+📚 Data Structure & Loop Used
+
+1. **`marks[5]` Array**
+   - Stores fixed contiguous memory for 5 integer items: `{78, 82, 91, 67, 88}`.
+
+2. **`for` Loop**
+   - Uses loop counter `i` starting at index `0` up to index `4` (`i < 5`) to iterate through elements sequentially.
+
+---
+
+⚙️ Main Function
+
+In the `main()` function:
+
+1. An array named `marks` is defined with 5 test scores.
+2. A `for` loop executes 5 times.
+3. Each step uses `marks[i]` to read and print the array element followed by a space.
+
+---
+
+🖥️ Output
+
+78 82 91 67 88 
+
+---
+
+🧠 C++ Concept
+
+Array Indexing & Iteration
+
+Array: [ 78 ][ 82 ][ 91 ][ 67 ][ 88 ]
+Index:    0     1     2     3     4
+          ↑
+      for loop (i = 0 to 4)
+
+---
+
+🔑 Key Concepts Demonstrated
+
+- One-Dimensional Arrays
+- Zero-based Indexing
+- Loop Iteration (`for` loop)
+- Contiguous Data Access
