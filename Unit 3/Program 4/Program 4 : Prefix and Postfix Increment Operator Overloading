@@ -1,0 +1,17 @@
+🔹 Program 4: Prefix and Postfix Increment Operator Overloading
+
+📌 Description
+
+This program demonstrates prefix ("++object") and postfix ("object++") increment operator overloading.
+
+In prefix increment, the object is incremented first and the updated object is returned.
+
+In postfix increment, the old value is returned first and then the object is incremented.
+
+🎯 Concept Used
+
+Unary Operator Overloading — Prefix and Postfix Increment
+
+💡 Key Point
+
+A dummy "int" parameter is used to distinguish the postfix increment operator from the prefix increment operator.
