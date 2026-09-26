@@ -1,0 +1,23 @@
+🔹 Program 3: Unary Minus Operator Overloading
+
+📌 Description
+
+This program demonstrates unary operator overloading in C++.
+
+The unary minus ("-") operator is overloaded for a user-defined "Number" class so that an object can be negated using the expression "-object".
+
+🎯 Concept Used
+
+Unary Operator Overloading
+
+💡 Key Point
+
+The expression:
+
+"-first"
+
+internally calls:
+
+"first.operator-()"
+
+This allows operators to work with objects of user-defined classes.
