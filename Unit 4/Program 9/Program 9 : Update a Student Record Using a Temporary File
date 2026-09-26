@@ -1,0 +1,25 @@
+🔄 Program 9 — Update a Student Record Using a Temporary File
+
+📌 Description
+
+This program demonstrates how to update an existing student record in a text file using a temporary file.
+
+The original file is read, the required record is modified, and the updated contents are written into a temporary file. After processing, the temporary file replaces the original file.
+
+🔑 Concepts Covered
+
+- 🔄 Updating file records
+- 📄 Temporary-file technique
+- 🔍 Searching for a record
+- ✏️ Modifying record data
+- 🔁 Replacing the original file
+- ⚠️ File-operation error handling
+
+📁 Files Used
+
+- "students.txt"
+- "students_temp.txt"
+
+🧠 Main Concept
+
+Read → Modify → Write Temporary File → Replace Original
