@@ -1,0 +1,24 @@
+📋 Program 4 — Copy One Text File into Another
+
+📌 Description
+
+This program demonstrates how to copy the contents of one text file into another file.
+
+It uses an input stream to read the source file line by line and an output stream to write those lines into a destination file.
+
+🔑 Concepts Covered
+
+- 📖 Reading from a text file
+- ✍️ Writing to another text file
+- 🔄 File-to-file data transfer
+- ⚠️ Source and destination file validation
+- 🔒 Closing file streams
+
+📁 Files Used
+
+- "message.txt"
+- "message_copy.txt"
+
+🧠 Main C++ Features
+
+"std::ifstream" and "std::ofstream"
