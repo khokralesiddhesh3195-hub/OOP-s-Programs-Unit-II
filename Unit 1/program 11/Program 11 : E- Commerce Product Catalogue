@@ -1,0 +1,41 @@
+## Real-Time Application 3: E-Commerce Product Catalog
+
+```markdown
+# Unit I – E-Commerce Product Catalog
+
+📌 Description
+
+This module manages store catalog inventory using a `static` member to maintain a live count of active product instances, demonstrating object lifecycle metrics.
+
+---
+
+📚 Classes Used
+
+1. **`Product` Class**
+   - `productId`, `productName`, `price`, `stockQuantity` – Private item attributes.
+   - `static int totalProducts` – Tracks total product instances created.
+   - `Product(...)` Constructor – Increments `totalProducts` on instantiation.
+   - `~Product()` Destructor – Decrements `totalProducts` on object destruction.
+   - `inline` Getters – Accessor methods compiled inline for performance.
+   - `static getTotalProducts()` – Static member function accessing instance count.
+
+---
+
+⚙️ Main Function
+
+In the `main()` function:
+1. Instantiates product objects for items like "Laptop", "Mouse", and "Keyboard".
+2. Displays details for each product.
+3. Queries and outputs total active catalog products via `Product::getTotalProducts()`.
+
+---
+
+🖥️ Output
+
+```text
+== Product Catalog ==
+ID: 1001 | Product: Laptop | Price: Rs. 55000 | Stock: 15
+ID: 1002 | Product: Mouse | Price: Rs. 450 | Stock: 50
+ID: 1003 | Product: Keyboard | Price: Rs. 1200 | Stock: 30
+
+Total Products in Catalog: 3
