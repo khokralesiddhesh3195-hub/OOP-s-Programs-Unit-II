@@ -1,0 +1,25 @@
+📍 Program 10 — File Pointer Navigation
+
+📌 Description
+
+This program demonstrates how to navigate through a file using file pointers.
+
+It uses "tellg()", "tellp()", "seekg()", and "seekp()" to determine and change the current input and output positions in a file.
+
+🔑 Concepts Covered
+
+- 📍 File positions
+- 🔎 Input-position navigation
+- ✍️ Output-position navigation
+- "tellg()"
+- "tellp()"
+- "seekg()"
+- "seekp()"
+
+📁 File Created
+
+"navigation.txt"
+
+🧠 Main Concept
+
+Random navigation using file pointers
