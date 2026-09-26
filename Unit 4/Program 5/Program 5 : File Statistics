@@ -1,0 +1,24 @@
+📊 Program 5 — File Statistics
+
+📌 Description
+
+This program demonstrates how to analyze the contents of a text file and calculate basic statistics such as the number of lines, words, and characters.
+
+It shows how file input can be combined with character and stream processing.
+
+🔑 Concepts Covered
+
+- 📖 Reading file contents
+- 📏 Counting lines
+- 🔤 Counting words
+- 🔢 Counting characters
+- 📊 Processing text-file data
+- 📂 File-position handling
+
+📁 File Used
+
+"message.txt"
+
+🧠 Main C++ Features
+
+"ifstream", character processing, and file positioning
