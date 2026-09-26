@@ -1,0 +1,23 @@
+📖 Program 2 — Read a File Line by Line
+
+📌 Description
+
+This program demonstrates how to open and read a text file line by line using the C++ "ifstream" class.
+
+It uses "getline()" to read each complete line from the file and displays the contents on the screen.
+
+🔑 Concepts Covered
+
+- 📂 Opening a text file for reading
+- 📖 Reading data using "ifstream"
+- 📝 Reading complete lines using "getline()"
+- ⚠️ Checking whether a file opened successfully
+- 🔒 Closing the input file
+
+📁 Input File
+
+"message.txt"
+
+🧠 Main C++ Feature
+
+"std::ifstream"
