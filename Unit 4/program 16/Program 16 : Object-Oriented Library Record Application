@@ -1,0 +1,25 @@
+📚 Program 16 — Object-Oriented Library Record Application
+
+📌 Description
+
+This program demonstrates a simple object-oriented library record application using file storage.
+
+It uses a class to represent library books and provides operations for storing and managing book information in a text file. The program combines OOP concepts with C++ file handling.
+
+🔑 Concepts Covered
+
+- 📚 Library book records
+- 🏗️ Classes and objects
+- 💾 File-based storage
+- ➕ Adding book records
+- 📖 Reading stored records
+- 🧩 Converting objects to file records
+- 🖥️ Menu-driven programming
+
+📁 File Created
+
+"library_books.txt"
+
+🧠 Main Concept
+
+Combining Object-Oriented Programming with File Streams
