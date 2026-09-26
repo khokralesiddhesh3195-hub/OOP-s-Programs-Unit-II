@@ -1,0 +1,22 @@
+📊 Program 14 — File Statistics Mini-Project
+
+📌 Description
+
+This mini-project creates a file-analysis application that accepts a file name from the user and calculates multiple statistics from its contents.
+
+The program counts lines, words, characters, vowels, digits, and spaces, providing a practical application of C++ file streams and text processing.
+
+🔑 Concepts Covered
+
+- 📂 User-specified file input
+- 📊 File statistics
+- 📏 Line counting
+- 🔤 Word and character counting
+- 🔡 Vowel counting
+- 🔢 Digit counting
+- ⬜ Space counting
+- ⚠️ File error handling
+
+🧠 Main Concept
+
+Combining file handling with text analysis
