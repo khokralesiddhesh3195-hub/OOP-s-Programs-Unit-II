@@ -1,0 +1,17 @@
+🔹 Program 13: Virtual Destructor
+
+📌 Description
+
+This program demonstrates the importance of a virtual destructor in a polymorphic base class.
+
+A "Derived" object is created dynamically and accessed using a "Base*" pointer.
+
+When the pointer is deleted, the derived destructor executes first, followed by the base destructor.
+
+🎯 Concept Used
+
+Virtual Destructor and Safe Polymorphic Destruction
+
+💡 Key Point
+
+A polymorphic base class should generally have a virtual destructor so that derived objects are destroyed correctly through base pointers.
