@@ -1,0 +1,24 @@
+💾 Program 11 — Binary File Writing and Reading
+
+📌 Description
+
+This program demonstrates how to write structured student records to a binary file and read them back.
+
+It uses binary file streams along with "write()" and "read()" to store and retrieve fixed-size records.
+
+🔑 Concepts Covered
+
+- 💾 Binary file handling
+- 📝 Writing binary records
+- 📖 Reading binary records
+- 🎓 Student structures
+- 📦 Fixed-size record storage
+- 🔄 "write()" and "read()"
+
+📁 File Created
+
+"students.dat"
+
+🧠 Main C++ Features
+
+"std::ios::binary", "write()", and "read()"
