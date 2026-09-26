@@ -1,0 +1,19 @@
+🔹 Program 7: Friend / Non-Member Operator Overloading
+
+📌 Description
+
+This program demonstrates operator overloading using a friend non-member function.
+
+It allows an integer to appear on the left side of the "+" operator:
+
+"10 + number"
+
+A friend function is used because the left operand is an integer rather than a "Complex" object.
+
+🎯 Concept Used
+
+Friend Function and Non-Member Operator Overloading
+
+💡 Key Point
+
+A friend function can access the private members of a class while remaining a non-member function.
