@@ -1,6 +1,5 @@
 ## Real-Time Application 3: E-Commerce Product Catalog
 
-```markdown
 # Unit I – E-Commerce Product Catalog
 
 📌 Description
@@ -32,7 +31,6 @@ In the `main()` function:
 
 🖥️ Output
 
-```text
 == Product Catalog ==
 ID: 1001 | Product: Laptop | Price: Rs. 55000 | Stock: 15
 ID: 1002 | Product: Mouse | Price: Rs. 450 | Stock: 50
