@@ -1,0 +1,38 @@
+🎬 Program 20-Unit III Mini-Project: Media Player with Polymorphic Controls
+
+📌 Description
+
+The Media Player mini-project demonstrates how polymorphism can be used to manage different types of media through a common interface.
+
+The program contains a base class called "Media" and three derived classes:
+
+- 🎵 "Audio"
+- 🎥 "Video"
+- 🖼️ "Image"
+
+The base class provides common operations such as:
+
+- ▶️ "play()"
+- ⏸️ "pause()"
+- ⏹️ "stop()"
+- ℹ️ "showDetails()"
+
+Each derived class provides its own implementation of these operations.
+
+A collection of "std::unique_ptr<Media>" objects is used to store different media types. Virtual functions ensure that the correct derived-class implementation is executed at run time.
+
+🎯 OOP Concepts Used
+
+- 🔹 Abstract class
+- 🔹 Pure virtual functions
+- 🔹 Inheritance
+- 🔹 Function overriding
+- 🔹 Run-time polymorphism
+- 🔹 Base-class pointers
+- 🔹 Virtual destructor
+- 🔹 "std::unique_ptr"
+- 🔹 Polymorphic collection
+
+💡 Key Point
+
+One common "Media" interface can control different media types while each derived class provides its own behavior.
