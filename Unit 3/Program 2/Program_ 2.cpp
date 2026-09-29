@@ -17,6 +17,12 @@ double calculateArea(double radius) {
     return PI * radius * radius;  // Returns π × radius × radius.
 }
 
+// Function 4: Calculate area of a triangle
+// ******** NEW / MODIFIED FUNCTION ********
+double calculateArea(double base, double height) { // Takes base and height as double
+    return 0.5 * base * height;             // Formula: 1/2 × base × height
+}
+
 // Main function where program execution begins.
 int main() {
 
@@ -29,6 +35,11 @@ int main() {
     // Calls calculateArea(double) for calculating the area of a circle.
     std::cout << "Circle Area: " << calculateArea(2.0) << '\n';
 
+    // ******** NEW / MODIFIED LINE ********
+    // Calls calculateArea(double base, double height) for triangle
+    std::cout << "Triangle Area: "
+              << calculateArea(10.0, 5.0) << '\n';
+
     return 0;  // Indicates successful program execution.
 }
 
@@ -37,3 +48,4 @@ int main() {
 Square Area: 25
 Rectangle Area: 24
 Circle Area: 12.5664
+Triangle Area: 25
