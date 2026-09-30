@@ -17,3 +17,7 @@ Relational Operator Overloading
 💡 Key Point
 
 Operators such as ">", "<", "==", and "!=" can be overloaded for user-defined classes.
+
+
+*Modification Task
+Overload == to test whether two Distance objects store equal values.*
