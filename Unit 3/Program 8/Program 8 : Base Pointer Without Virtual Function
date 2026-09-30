@@ -13,3 +13,7 @@ Static Binding
 💡 Key Point
 
 If a base-class function is not "virtual", the function call through a base pointer is resolved using the static type of the pointer.
+
+
+*Modification Task
+Add a direct call derivedObject.display() and compare its output with basePointer->display().*
