@@ -17,3 +17,7 @@ Friend Function and Non-Member Operator Overloading
 💡 Key Point
 
 A friend function can access the private members of a class while remaining a non-member function.
+
+
+*Modification Task
+Write a friend operator- that supports 10 - complexNumber.*
