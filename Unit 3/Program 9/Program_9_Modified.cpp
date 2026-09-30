@@ -45,12 +45,12 @@ public:
 };
 
 
-// 🆕 MODIFICATION: Added Cow class
+//  MODIFICATION: Added Cow class
 class Cow : public Animal
 {
 public:
 
-    // 🆕 MODIFICATION: Overrides sound() for Cow
+    //  MODIFICATION: Overrides sound() for Cow
     void sound() const override
     {
         cout << "Cow moos" << endl;
@@ -66,7 +66,7 @@ int main()
     // Creates a Cat object
     Cat cat;
 
-    // 🆕 MODIFICATION: Creates a Cow object
+    //  MODIFICATION: Creates a Cow object
     Cow cow;
 
     // Base class pointer points to Dog object
@@ -81,10 +81,10 @@ int main()
     // Calls Cat's sound()
     animal->sound();
 
-    // 🆕 MODIFICATION: Base pointer now points to Cow object
+    //  MODIFICATION: Base pointer now points to Cow object
     animal = &cow;
 
-    // 🆕 MODIFICATION: Calls Cow's overridden sound()
+    //  MODIFICATION: Calls Cow's overridden sound()
     animal->sound();
 
     // Indicates successful program termination
