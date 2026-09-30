@@ -15,3 +15,7 @@ Object Slicing and Polymorphism Using References
 💡 Key Point
 
 Passing a polymorphic object by "Base" value can cause object slicing. Using a reference or pointer preserves the derived object.
+
+
+*Modification Task
+Write a third function using const Base* and call it with the address of the derived object.*
