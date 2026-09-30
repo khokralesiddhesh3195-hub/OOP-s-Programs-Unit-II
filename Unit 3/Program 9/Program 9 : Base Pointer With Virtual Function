@@ -13,3 +13,7 @@ Run-Time Polymorphism — Virtual Function
 💡 Key Point
 
 A base pointer can refer to different derived objects, and a virtual function enables dynamic binding.
+
+
+*Modification Task
+Add a Cow class that displays Cow moos.*
