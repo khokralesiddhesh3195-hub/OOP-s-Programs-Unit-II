@@ -15,3 +15,7 @@ Polymorphic Processing, Abstract Classes, Virtual Functions and Smart Pointers
 💡 Key Point
 
 Different derived objects can be handled uniformly through a common base-class interface.
+
+
+*Modification Task
+Add a Triangle object to the vector.*
