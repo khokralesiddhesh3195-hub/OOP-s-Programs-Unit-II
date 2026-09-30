@@ -18,3 +18,7 @@ A common function "processPayment()" accepts a "Payment" reference and calls the
 - 🔹 Run-time polymorphism
 - 🔹 Base reference
 - 🔹 Virtual destructor
+
+
+*Modification Task
+Add a WalletPayment class and demonstrate it through processPayment().*
