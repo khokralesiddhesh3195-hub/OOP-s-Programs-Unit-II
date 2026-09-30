@@ -28,3 +28,10 @@ The "printPaySlip()" function accepts an "Employee" reference and calls the appr
 💡 Key Point
 
 Different employee types can be processed through the same "Employee" interface while providing their own salary calculation.
+
+
+*Modification Task
+1. Add a FreelanceEmployee class.
+2. Add tax calculation for permanent employees.
+3. Store employees using std::vector<std::unique_ptr<Employee>>.
+4. Display the total payroll amount.
