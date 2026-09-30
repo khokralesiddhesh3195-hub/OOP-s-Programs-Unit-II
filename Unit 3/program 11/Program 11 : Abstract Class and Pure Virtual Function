@@ -19,3 +19,7 @@ Abstract Class and Pure Virtual Function
 💡 Key Point
 
 A class containing at least one pure virtual function is an abstract class.
+
+
+*Modification Task
+Add a Triangle class and implement the formula 0.5 × base × height
