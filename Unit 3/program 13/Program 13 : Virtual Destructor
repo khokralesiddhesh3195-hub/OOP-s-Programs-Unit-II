@@ -15,3 +15,10 @@ Virtual Destructor and Safe Polymorphic Destruction
 💡 Key Point
 
 A polymorphic base class should generally have a virtual destructor so that derived objects are destroyed correctly through base pointers.
+
+
+*Better Modern Alternative
+   #include <memory>
+   std::unique_ptr<Base> pointer = std::make_unique<Derived>();
+
+   A virtual destructor is still required in a polymorphic base class.
