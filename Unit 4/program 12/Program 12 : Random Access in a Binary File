@@ -22,3 +22,8 @@ The program calculates the byte offset of a fixed-size record and uses "seekg()"
 🧠 Main Concept
 
 Directly locate and read a selected binary record
+
+
+
+Modification Task
+Search a binary file by roll number instead of record number.
