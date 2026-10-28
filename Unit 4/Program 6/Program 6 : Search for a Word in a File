@@ -21,3 +21,9 @@ The program reads whitespace-separated words from the file and compares them wit
 🧠 Main C++ Feature
 
 Stream extraction using "operator >>"
+
+
+
+Modification Task
+Make the search case-insensitive and ignore punctuation marks.
+
