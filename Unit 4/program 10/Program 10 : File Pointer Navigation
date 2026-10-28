@@ -23,3 +23,8 @@ It uses "tellg()", "tellp()", "seekg()", and "seekp()" to determine and change t
 🧠 Main Concept
 
 Random navigation using file pointers
+
+
+Modification Task
+Use seekg() to read the last character from navigation.txt.
+
