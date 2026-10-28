@@ -22,3 +22,8 @@ It uses an input stream to read the source file line by line and an output strea
 🧠 Main C++ Features
 
 "std::ifstream" and "std::ofstream"
+
+
+
+Modification Task
+Copy only lines containing the word C++ into a new file named cpp_lines.txt.
