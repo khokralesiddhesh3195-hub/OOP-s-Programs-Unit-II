@@ -22,3 +22,7 @@ It shows how file input can be combined with character and stream processing.
 🧠 Main C++ Features
 
 "ifstream", character processing, and file positioning
+
+
+Modification Task
+Count vowels, consonants, digits, spaces, and punctuation characters.
