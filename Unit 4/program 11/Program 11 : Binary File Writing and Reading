@@ -22,3 +22,8 @@ It uses binary file streams along with "write()" and "read()" to store and retri
 🧠 Main C++ Features
 
 "std::ios::binary", "write()", and "read()"
+
+
+Modification Task
+Write three student records into the binary file and read all of them using a loop.
+
