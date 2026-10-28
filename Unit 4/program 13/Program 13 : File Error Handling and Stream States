@@ -24,3 +24,7 @@ It checks whether a file can be opened and demonstrates the use of functions suc
 🧠 Main Concept
 
 Reliable file-operation error handling
+
+
+Modification Task
+Ask the user for a file name and continue prompting until a valid file is opened.
