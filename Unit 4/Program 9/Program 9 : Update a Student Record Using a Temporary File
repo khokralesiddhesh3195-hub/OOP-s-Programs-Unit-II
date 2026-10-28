@@ -23,3 +23,8 @@ The original file is read, the required record is modified, and the updated cont
 🧠 Main Concept
 
 Read → Modify → Write Temporary File → Replace Original
+
+
+Modification Task
+Update both name and marks of a selected student.
+
