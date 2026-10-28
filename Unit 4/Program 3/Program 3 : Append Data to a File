@@ -21,3 +21,7 @@ It uses "ofstream" with "std::ios::app" to open the file in append mode.
 🧠 Main C++ Feature
 
 "std::ios::app"
+
+
+Modification Task
+Ask the user for a name and append the name with the current date entered by the user.
