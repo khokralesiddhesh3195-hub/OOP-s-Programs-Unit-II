@@ -21,3 +21,8 @@ It introduces the basic concept of file output streams, checks whether the file 
 🧠 Main C++ Feature
 
 "std::ofstream"
+
+
+
+Modification Task
+Accept three lines from the user and write them to notes.txt.
